@@ -1,0 +1,45 @@
+# Hermes 定时任务配置
+# 从 OpenClaw 迁移到 Hermes
+# 已移除: AI新闻抓取、AI新闻推送
+
+# 0:00 - Bithappy 理财监控
+0 0,9,12,15,18,21 * * * python3 /home/ubuntu/.hermes/cron/scripts/bithappy_email_pro.py >> /home/ubuntu/.hermes/cron/logs/bithappy-email.log 2>&1
+
+# 10:00 - 系统健康巡检
+0 10 * * * python3 /home/ubuntu/.hermes/cron/scripts/health_check.py >> /home/ubuntu/.hermes/cron/logs/health-check.log 2>&1
+
+# 14:00 - 故障预测
+0 14 * * * python3 /home/ubuntu/.hermes/cron/scripts/failure_prediction.py >> /home/ubuntu/.hermes/cron/logs/prediction.log 2>&1
+
+# 19:00 - 每日个人日报
+0 19 * * * python3 /home/ubuntu/.hermes/cron/scripts/daily_report.py --send >> /home/ubuntu/.hermes/cron/logs/daily-report.log 2>&1
+
+# 20:00(周日) - 周报推送
+0 20 * * 0 python3 /home/ubuntu/.hermes/cron/scripts/weekly_report.py >> /home/ubuntu/.hermes/cron/logs/weekly-report.log 2>&1
+
+# 20:00(月末) - 月报推送
+0 20 28-31 * * [ $(date +\%d -d tomorrow) = 01 ] && python3 /home/ubuntu/.hermes/cron/scripts/monthly_report.py >> /home/ubuntu/.hermes/cron/logs/monthly-report.log 2>&1
+
+# 22:00 - 公众号文章
+0 22 * * * python3 /home/ubuntu/.hermes/cron/scripts/wechat-article-daily.py >> /home/ubuntu/.hermes/cron/logs/wechat-article-daily.log 2>&1
+
+# 22:30 - 抖音图文
+30 22 * * * python3 /home/ubuntu/.hermes/cron/scripts/douyin-daily.py >> /home/ubuntu/.hermes/cron/logs/douyin-daily.log 2>&1
+
+# 23:00 - 小红书旅游攻略
+0 23 * * * python3 /home/ubuntu/.hermes/cron/scripts/xiaohongshu-travel-daily.py >> /home/ubuntu/.hermes/cron/logs/xiaohongshu-travel.log 2>&1
+
+# 3:00 - 技能备份
+0 3 * * * bash /home/ubuntu/.hermes/cron/scripts/skill-backup.sh >> /home/ubuntu/.hermes/cron/logs/skill-backup.log 2>&1
+
+# 3:30 - 全站备份
+30 3 * * * python3 /home/ubuntu/.hermes/cron/scripts/site_backup.py >> /home/ubuntu/.hermes/cron/logs/site-backup.log 2>&1
+
+# 3:30(周日) - 记忆归档
+30 3 * * 0 python3 /home/ubuntu/.hermes/cron/scripts/memory_archive.py >> /home/ubuntu/.hermes/cron/logs/memory-archive.log 2>&1
+
+# */30 min - 心跳检查
+*/30 * * * * python3 /home/ubuntu/.hermes/cron/scripts/heartbeat_check.py >> /home/ubuntu/.hermes/cron/logs/heartbeat.log 2>&1
+
+# */4 hour - 性能采集
+0 */4 * * * python3 /home/ubuntu/.hermes/cron/scripts/collect_metrics.py >> /home/ubuntu/.hermes/cron/logs/metrics.log 2>&1

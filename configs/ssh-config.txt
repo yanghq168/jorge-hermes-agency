@@ -1,0 +1,6 @@
+Host jorge-remote
+    HostName 82.156.225.39
+    User ai-worker
+    IdentityFile ~/.ssh/jorge_server
+    StrictHostKeyChecking no
+    ConnectTimeout 10
