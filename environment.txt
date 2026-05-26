@@ -1,4 +1,4 @@
-# 备份时间: 2026-05-26T23:35:45.078986
-PATH=/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/home/ubuntu/.hermes/hermes-agent/venv/bin:/usr/bin:/home/ubuntu/.hermes/hermes-agent/venv/bin:/home/ubuntu/.hermes/hermes-agent/node_modules/.bin:/usr/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+# 备份时间: 2026-05-27T03:30:01.725490
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 HOME=/home/ubuntu
-USER=ubuntu
+USER=

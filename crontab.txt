@@ -1,6 +1,6 @@
 # Hermes 定时任务配置
 # 从 OpenClaw 迁移到 Hermes
-# 已移除: AI新闻抓取、AI新闻推送
+# 已移除: AI新闻抓取、AI新闻推送、抖音图文
 
 # 0:00 - Bithappy 理财监控
 0 0,9,12,15,18,21 * * * python3 /home/ubuntu/.hermes/cron/scripts/bithappy_email_pro.py >> /home/ubuntu/.hermes/cron/logs/bithappy-email.log 2>&1
@@ -22,9 +22,6 @@
 
 # 22:00 - 公众号文章
 0 22 * * * python3 /home/ubuntu/.hermes/cron/scripts/wechat-article-daily.py >> /home/ubuntu/.hermes/cron/logs/wechat-article-daily.log 2>&1
-
-# 22:30 - 抖音图文
-30 22 * * * python3 /home/ubuntu/.hermes/cron/scripts/douyin-daily.py >> /home/ubuntu/.hermes/cron/logs/douyin-daily.log 2>&1
 
 # 23:00 - 小红书旅游攻略
 0 23 * * * python3 /home/ubuntu/.hermes/cron/scripts/xiaohongshu-travel-daily.py >> /home/ubuntu/.hermes/cron/logs/xiaohongshu-travel.log 2>&1
