@@ -24,7 +24,6 @@
 0 22 * * * python3 /home/ubuntu/.hermes/cron/scripts/wechat-article-daily.py >> /home/ubuntu/.hermes/cron/logs/wechat-article-daily.log 2>&1
 
 # 23:00 - 小红书旅游攻略
-0 23 * * * python3 /home/ubuntu/.hermes/cron/scripts/xiaohongshu-travel-daily.py >> /home/ubuntu/.hermes/cron/logs/xiaohongshu-travel.log 2>&1
 
 # 3:00 - 技能备份
 0 3 * * * bash /home/ubuntu/.hermes/cron/scripts/skill-backup.sh >> /home/ubuntu/.hermes/cron/logs/skill-backup.log 2>&1
