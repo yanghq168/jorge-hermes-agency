@@ -1,0 +1,1129 @@
+2026-05-26 22:03:47,272 INFO gateway.run: Starting Hermes Gateway...
+2026-05-26 22:03:47,273 INFO gateway.run: Session storage: /home/ubuntu/.hermes/sessions
+2026-05-26 22:03:47,291 INFO gateway.run: Agent budget: max_iterations=60 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-05-26 22:03:47,292 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-05-26 22:03:47,313 WARNING gateway.run: No messaging platforms enabled.
+2026-05-26 22:03:47,314 INFO gateway.run: Gateway will continue running for cron job execution.
+2026-05-26 22:03:47,336 INFO gateway.run: Channel directory built: 0 target(s)
+2026-05-26 22:03:47,337 INFO gateway.run: Press Ctrl+C to stop
+2026-05-26 22:03:47,507 INFO gateway.run: Cron ticker started (interval=60s)
+2026-05-26 22:03:52,343 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-05-26 22:04:21,883 INFO gateway.run: Stopping gateway for restart...
+2026-05-26 22:04:21,884 INFO gateway.run: Shutdown phase: notify_active_sessions done at +0.00s
+2026-05-26 22:04:21,894 INFO gateway.run: Shutdown phase: drain done at +0.01s (drain took 0.01s, timed_out=False, active_at_start=0, active_now=0)
+2026-05-26 22:04:21,894 INFO gateway.run: Shutdown phase: all adapters disconnected at +0.01s
+2026-05-26 22:04:22,142 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +0.26s
+2026-05-26 22:04:22,155 INFO gateway.run: Shutdown phase: SessionDB close done at +0.27s
+2026-05-26 22:04:22,163 INFO gateway.run: Gateway stopped (total teardown 0.28s)
+2026-05-26 22:04:22,163 INFO gateway.run: Cron ticker stopped
+2026-05-26 22:04:23,870 INFO gateway.run: Starting Hermes Gateway...
+2026-05-26 22:04:23,870 INFO gateway.run: Session storage: /home/ubuntu/.hermes/sessions
+2026-05-26 22:04:23,876 INFO gateway.run: Agent budget: max_iterations=60 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-05-26 22:04:23,877 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-05-26 22:04:23,888 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-05-26 22:04:23,888 WARNING gateway.run: No messaging platforms enabled.
+2026-05-26 22:04:23,888 INFO gateway.run: Gateway will continue running for cron job execution.
+2026-05-26 22:04:23,905 INFO gateway.run: Channel directory built: 0 target(s)
+2026-05-26 22:04:23,905 INFO gateway.run: Press Ctrl+C to stop
+2026-05-26 22:04:23,923 INFO gateway.run: Cron ticker started (interval=60s)
+2026-05-26 22:04:28,912 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-05-26 22:12:20,012 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-05-26 22:12:20,013 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1176 parent_name=systemd loadavg_1m=0.06 parent_cmdline='/usr/lib/systemd/systemd --user'
+2026-05-26 22:12:20,015 INFO gateway.run: Stopping gateway...
+2026-05-26 22:12:20,015 INFO gateway.run: Shutdown phase: notify_active_sessions done at +0.00s
+2026-05-26 22:12:20,020 INFO gateway.run: Shutdown phase: drain done at +0.00s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0)
+2026-05-26 22:12:20,021 INFO gateway.run: Shutdown phase: all adapters disconnected at +0.01s
+2026-05-26 22:12:20,058 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +0.04s
+2026-05-26 22:12:20,058 INFO gateway.run: Shutdown phase: SessionDB close done at +0.04s
+2026-05-26 22:12:20,064 INFO gateway.run: Gateway stopped (total teardown 0.05s)
+2026-05-26 22:12:20,064 INFO gateway.run: Cron ticker stopped
+2026-05-26 22:12:20,064 INFO gateway.run: Exiting with code 1 (signal-initiated shutdown without restart request) so systemd Restart=on-failure can revive the gateway.
+2026-05-26 22:12:21,556 INFO gateway.run: Starting Hermes Gateway...
+2026-05-26 22:12:21,556 INFO gateway.run: Session storage: /home/ubuntu/.hermes/sessions
+2026-05-26 22:12:21,563 INFO gateway.run: Agent budget: max_iterations=60 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-05-26 22:12:21,563 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-05-26 22:12:21,571 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-05-26 22:12:30,666 INFO gateway.run: Connecting to feishu...
+2026-05-26 22:12:31,348 INFO gateway.platforms.feishu: [Feishu] Connected in websocket mode (feishu)
+2026-05-26 22:12:31,354 INFO gateway.run: ✓ feishu connected
+2026-05-26 22:12:31,360 INFO gateway.run: Gateway running with 1 platform(s)
+2026-05-26 22:12:31,365 INFO gateway.run: Channel directory built: 0 target(s)
+2026-05-26 22:12:32,366 INFO gateway.run: Press Ctrl+C to stop
+2026-05-26 22:12:32,386 INFO gateway.run: Cron ticker started (interval=60s)
+2026-05-26 22:12:37,370 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-05-26 22:12:46,397 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e6eea2640a0c4d348bb0905547
+2026-05-26 22:12:46,398 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e6eea2640a0c4d348bb0905547 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='hi' media=0
+2026-05-26 22:12:48,036 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (2 chars)
+2026-05-26 22:12:48,676 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='hi'
+2026-05-26 22:12:50,517 WARNING gateway.run: Primary provider auth failed: No inference provider configured. Run 'hermes model' to choose a provider and model, or set an API key (OPENROUTER_API_KEY, OPENAI_API_KEY, etc.) in ~/.hermes/.env. — trying fallback
+2026-05-26 22:12:55,526 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=6.8s api_calls=0 response=199 chars
+2026-05-26 22:12:55,554 INFO gateway.platforms.base: [Feishu] Sending response (199 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-26 22:14:42,109 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e6ee3d828a8c386a1f53f0a49a
+2026-05-26 22:14:42,110 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e6ee3d828a8c386a1f53f0a49a type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='能沟通吗' media=0
+2026-05-26 22:14:43,200 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (4 chars)
+2026-05-26 22:14:43,729 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='能沟通吗'
+2026-05-26 22:14:51,086 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=7.4s api_calls=1 response=25 chars
+2026-05-26 22:14:51,103 INFO gateway.platforms.base: [Feishu] Sending response (25 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-26 22:17:55,828 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e6ef7feeca0c3ca53f9fa39c76
+2026-05-26 22:17:55,828 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e6ef7feeca0c3ca53f9fa39c76 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='我之前龙虾的数据,我都上传到github了,需要你先装载' media=0
+2026-05-26 22:17:56,896 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (28 chars)
+2026-05-26 22:17:57,460 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='我之前龙虾的数据,我都上传到github了,需要你先装载'
+2026-05-26 22:18:08,378 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=10.9s api_calls=2 response=204 chars
+2026-05-26 22:18:08,389 INFO gateway.platforms.base: [Feishu] Sending response (204 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-26 22:20:35,838 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e6e8dfd5ca4c36ccda7b529ee7
+2026-05-26 22:20:35,839 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e6e8dfd5ca4c36ccda7b529ee7 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='skill: https://github.com/yanghq168/jorge-skills\nagency: https://github.com/yanghq168/jorge-agency\n安装并判断一下是否是你可用的' media=0
+2026-05-26 22:20:36,899 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (113 chars)
+2026-05-26 22:20:37,466 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='skill: https://github.com/yanghq168/jorge-skills agency: https://github.com/yang'
+2026-05-26 22:21:45,464 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=68.0s api_calls=7 response=2018 chars
+2026-05-26 22:21:45,475 INFO gateway.platforms.base: [Feishu] Sending response (2018 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-26 22:22:56,924 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e6e82c904a0c3406793ead060d
+2026-05-26 22:22:56,925 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e6e82c904a0c3406793ead060d type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='需要' media=0
+2026-05-26 22:22:58,010 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (2 chars)
+2026-05-26 22:22:58,540 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='需要'
+2026-05-26 22:34:28,938 INFO gateway.platforms.feishu: Feishu button resolved 1 approval(s) for session agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (choice=always, user=ou_d8fa42b66f19c9c4771ceff33c5716de)
+2026-05-26 22:34:55,648 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=717.1s api_calls=22 response=1018 chars
+2026-05-26 22:34:55,693 INFO gateway.platforms.base: [Feishu] Sending response (1018 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-26 22:35:40,456 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e6eb5718cb8c27ea92aea03095
+2026-05-26 22:35:40,457 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e6eb5718cb8c27ea92aea03095 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='我的定时任务在这个仓库,也需要你启用起来\n仓库: https://github.com/yanghq168/jorge-agency\n目录: jorge-cron-jobs/' media=0
+2026-05-26 22:35:41,530 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (87 chars)
+2026-05-26 22:35:42,038 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='我的定时任务在这个仓库,也需要你启用起来 仓库: https://github.com/yanghq168/jorge-agency 目录: jorge-cro'
+2026-05-26 22:48:32,204 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=770.2s api_calls=35 response=1711 chars
+2026-05-26 22:48:32,232 INFO gateway.platforms.base: [Feishu] Sending response (1711 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-26 23:00:13,405 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e6f19014cb0c3386bde3ad63c5
+2026-05-26 23:00:13,405 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e6f19014cb0c3386bde3ad63c5 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='有几个权限也需要你检查是否还在\n1.给我发QQ邮箱的配置\n2.我GITHUB的权限\n3.我远程服务器的权限' media=0
+2026-05-26 23:00:14,480 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (53 chars)
+2026-05-26 23:00:15,027 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='有几个权限也需要你检查是否还在 1.给我发QQ邮箱的配置 2.我GITHUB的权限 3.我远程服务器的权限'
+2026-05-26 23:04:06,341 INFO [20260526_221248_246c5996] gateway.run: Session split detected: 20260526_221248_246c5996 → 20260526_230312_216c16 (compression)
+2026-05-26 23:04:06,375 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=231.3s api_calls=13 response=1576 chars
+2026-05-26 23:04:06,388 INFO gateway.platforms.base: [Feishu] Sending response (1576 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-26 23:05:15,458 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e6f2460c8b0c33616025568897
+2026-05-26 23:05:15,458 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e6f2460c8b0c33616025568897 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='协助我一起配置一下' media=0
+2026-05-26 23:05:16,539 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (9 chars)
+2026-05-26 23:05:17,073 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='协助我一起配置一下'
+2026-05-26 23:05:45,316 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=28.2s api_calls=2 response=1060 chars
+2026-05-26 23:05:45,331 INFO gateway.platforms.base: [Feishu] Sending response (1060 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-26 23:14:30,505 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e6fc39388a0c342b8ef68e8d88
+2026-05-26 23:14:30,505 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e6fc39388a0c342b8ef68e8d88 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='1. **qq邮箱授权码**：iylylmwnitbbbebi\n2. **GitHub**：B方式 TOKEN: github...JMV8' media=0
+2026-05-26 23:14:31,573 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (489 chars)
+2026-05-26 23:14:32,141 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='1. **qq邮箱授权码**：iylylmwnitbbbebi 2. **GitHub**：B方式 TOKEN: github...Q0Ta'
+2026-05-26 23:15:13,515 INFO gateway.platforms.feishu: Feishu button resolved 1 approval(s) for session agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (choice=always, user=ou_d8fa42b66f19c9c4771ceff33c5716de)
+2026-05-26 23:16:01,442 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=89.3s api_calls=12 response=910 chars
+2026-05-26 23:16:01,454 INFO gateway.platforms.base: [Feishu] Sending response (910 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-26 23:20:23,780 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e6fedbe98acc38d3c5dbaeddcc
+2026-05-26 23:20:23,780 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e6fedbe98acc38d3c5dbaeddcc type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='我执行过A了' media=0
+2026-05-26 23:20:24,836 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (6 chars)
+2026-05-26 23:20:25,373 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='我执行过A了'
+2026-05-26 23:21:45,588 INFO gateway.platforms.feishu: Feishu button resolved 1 approval(s) for session agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (choice=always, user=ou_d8fa42b66f19c9c4771ceff33c5716de)
+2026-05-26 23:22:12,900 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=107.5s api_calls=7 response=1051 chars
+2026-05-26 23:22:12,939 INFO gateway.platforms.base: [Feishu] Sending response (1051 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-26 23:22:44,167 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e6fe2f4d8a4c3920783b300c6e
+2026-05-26 23:22:44,168 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e6fe2f4d8a4c3920783b300c6e type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='列出来我的定时任务有哪些' media=0
+2026-05-26 23:22:45,218 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (12 chars)
+2026-05-26 23:22:45,728 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='列出来我的定时任务有哪些'
+2026-05-26 23:23:20,210 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=34.5s api_calls=3 response=1804 chars
+2026-05-26 23:23:20,220 INFO gateway.platforms.base: [Feishu] Sending response (1804 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-26 23:24:34,459 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e6ffdd0a8a4c4ee9493e959a8c
+2026-05-26 23:24:34,459 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e6ffdd0a8a4c4ee9493e959a8c type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='AI新闻抓取,AI新闻推送 这两个定时任务干掉,开启剩余的定时任务' media=0
+2026-05-26 23:24:35,512 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (33 chars)
+2026-05-26 23:24:36,065 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='AI新闻抓取,AI新闻推送 这两个定时任务干掉,开启剩余的定时任务'
+2026-05-26 23:25:46,736 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=70.7s api_calls=8 response=843 chars
+2026-05-26 23:25:46,747 INFO gateway.platforms.base: [Feishu] Sending response (843 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-26 23:27:09,934 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e6ff218f938c23b5c2fba5b5b8
+2026-05-26 23:27:09,934 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e6ff218f938c23b5c2fba5b5b8 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='创建新的项目 jorge-hermes-skills和jorge-hermes-agency用于每日备份,不要动之前我用户openclaw备份的项目' media=0
+2026-05-26 23:27:11,008 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (74 chars)
+2026-05-26 23:27:11,528 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='创建新的项目 jorge-hermes-skills和jorge-hermes-agency用于每日备份,不要动之前我用户openclaw备份的项目'
+2026-05-26 23:27:29,541 INFO gateway.platforms.feishu: Feishu button resolved 1 approval(s) for session agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (choice=always, user=ou_d8fa42b66f19c9c4771ceff33c5716de)
+2026-05-26 23:29:21,669 INFO gateway.platforms.feishu: Feishu button resolved 1 approval(s) for session agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (choice=always, user=ou_d8fa42b66f19c9c4771ceff33c5716de)
+2026-05-26 23:29:58,303 INFO gateway.platforms.feishu: Feishu button resolved 1 approval(s) for session agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (choice=always, user=ou_d8fa42b66f19c9c4771ceff33c5716de)
+2026-05-26 23:31:47,719 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=276.2s api_calls=16 response=745 chars
+2026-05-26 23:31:47,737 INFO gateway.platforms.base: [Feishu] Sending response (745 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-26 23:32:58,133 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e6f9c5adca0c236e5ce033a78c
+2026-05-26 23:32:58,134 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e6f9c5adca0c236e5ce033a78c type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='选项B' media=0
+2026-05-26 23:32:59,239 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (3 chars)
+2026-05-26 23:32:59,762 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='选项B'
+2026-05-26 23:36:27,473 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=207.7s api_calls=20 response=1067 chars
+2026-05-26 23:36:27,495 INFO gateway.platforms.base: [Feishu] Sending response (1067 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-26 23:37:07,476 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e6face0c8a4c22ec64817a0c2d
+2026-05-26 23:37:07,476 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e6face0c8a4c22ec64817a0c2d type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='除了skill,agency,我还有其他备份记忆的项目么' media=0
+2026-05-26 23:37:08,496 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (28 chars)
+2026-05-26 23:37:09,101 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='除了skill,agency,我还有其他备份记忆的项目么'
+2026-05-26 23:38:04,327 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=55.2s api_calls=7 response=967 chars
+2026-05-26 23:38:04,339 INFO gateway.platforms.base: [Feishu] Sending response (967 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-26 23:39:03,689 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e6fa7bfd0a4c3ba84433fb64b3
+2026-05-26 23:39:03,689 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e6fa7bfd0a4c3ba84433fb64b3 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='先不动' media=0
+2026-05-26 23:39:04,744 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (3 chars)
+2026-05-26 23:39:05,258 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='先不动'
+2026-05-26 23:39:15,539 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=10.3s api_calls=1 response=369 chars
+2026-05-26 23:39:15,549 INFO gateway.platforms.base: [Feishu] Sending response (369 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-26 23:40:00,609 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e6fa3cdb8a0c3cf8a3463c355d
+2026-05-26 23:40:00,609 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e6fa3cdb8a0c3cf8a3463c355d type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='配置飞书Webhook' media=0
+2026-05-26 23:40:01,667 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (11 chars)
+2026-05-26 23:40:02,207 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='配置飞书Webhook'
+2026-05-26 23:40:21,384 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=19.2s api_calls=3 response=394 chars
+2026-05-26 23:40:21,393 INFO gateway.platforms.base: [Feishu] Sending response (394 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-26 23:43:21,931 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e6fb75824a4c230cf8ac79b8d5
+2026-05-26 23:43:21,931 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e6fb75824a4c230cf8ac79b8d5 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='暂时不用,你测试一下小红书,公众号,头条的推送' media=0
+2026-05-26 23:43:22,995 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (23 chars)
+2026-05-26 23:43:23,518 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='暂时不用,你测试一下小红书,公众号,头条的推送'
+2026-05-26 23:44:11,487 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=48.0s api_calls=7 response=667 chars
+2026-05-26 23:44:11,500 INFO gateway.platforms.base: [Feishu] Sending response (667 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-26 23:44:37,911 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e6fb09934a4c23434e5e4057d4
+2026-05-26 23:44:37,912 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e6fb09934a4c23434e5e4057d4 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='抖音的删除了' media=0
+2026-05-26 23:44:38,991 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (6 chars)
+2026-05-26 23:44:39,478 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='抖音的删除了'
+2026-05-26 23:45:57,152 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=77.7s api_calls=9 response=688 chars
+2026-05-26 23:45:57,165 INFO gateway.platforms.base: [Feishu] Sending response (688 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-26 23:46:24,968 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e684bc94cacc32cc005c4759fe
+2026-05-26 23:46:24,968 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e684bc94cacc32cc005c4759fe type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='你有查看我邮件的权限吗' media=0
+2026-05-26 23:46:26,022 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (11 chars)
+2026-05-26 23:46:26,557 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='你有查看我邮件的权限吗'
+2026-05-26 23:46:39,395 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=12.8s api_calls=1 response=515 chars
+2026-05-26 23:46:39,406 INFO gateway.platforms.base: [Feishu] Sending response (515 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-26 23:47:13,265 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e6846c46ca4c32bc76c9f88a60
+2026-05-26 23:47:13,266 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e6846c46ca4c32bc76c9f88a60 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='你目前的问题是,给我发送的所有内容,都是没有UI的,包括发送的小红书邮件' media=0
+2026-05-26 23:47:14,318 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (36 chars)
+2026-05-26 23:47:14,852 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='你目前的问题是,给我发送的所有内容,都是没有UI的,包括发送的小红书邮件'
+2026-05-26 23:51:49,900 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=275.0s api_calls=12 response=495 chars
+2026-05-26 23:51:49,915 INFO gateway.platforms.base: [Feishu] Sending response (495 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-26 23:53:00,344 INFO gateway.platforms.feishu: [Feishu] Received raw message type=image message_id=om_x100b6e68537440a0c2d3419e0dc833e
+2026-05-26 23:53:01,213 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e68537440a0c2d3419e0dc833e type=photo chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='' media=1
+2026-05-26 23:53:02,472 INFO gateway.platforms.feishu: [Feishu] Flushing media batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:media:photo with 1 attachment(s)
+2026-05-26 23:53:03,014 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg=''
+2026-05-26 23:53:03,453 INFO gateway.run: Image routing: text (mode=text). Pre-analyzing 1 image(s) via vision_analyze.
+2026-05-26 23:53:48,712 INFO gateway.platforms.feishu: Feishu button resolved 1 approval(s) for session agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (choice=always, user=ou_d8fa42b66f19c9c4771ceff33c5716de)
+2026-05-26 23:57:04,541 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=241.5s api_calls=16 response=228 chars
+2026-05-26 23:57:04,554 INFO gateway.platforms.base: [Feishu] Sending response (214 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-26 23:57:05,275 WARNING gateway.platforms.base: [Feishu] Failed to send media (): File not found: <path>
+2026-05-27 00:22:38,680 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e68c21218a8c2395610ccea983
+2026-05-27 00:22:38,680 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e68c21218a8c2395610ccea983 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='还在吗' media=0
+2026-05-27 00:22:40,047 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (3 chars)
+2026-05-27 00:22:40,589 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='还在吗'
+2026-05-27 00:22:59,966 INFO [20260526_230312_216c16] gateway.run: Session split detected: 20260526_230312_216c16 → 20260527_002242_401233 (compression)
+2026-05-27 00:22:59,998 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=19.4s api_calls=1 response=253 chars
+2026-05-27 00:23:00,049 INFO gateway.platforms.base: [Feishu] Sending response (253 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 00:25:27,514 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e68d9a3d0a4c45b29dca4202cf
+2026-05-27 00:25:27,515 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e68d9a3d0a4c45b29dca4202cf type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='按你这份拆解，把公众号从「主编视角」彻底改成「人间清醒观察家」视角。下面是**可直接落地**的全套升级方案。\n---\n## 一、人设升级：从"主编"到"故事收集者"\n| 旧人设 | 新人设 | 具体改法 |\n|--------|------' media=0
+2026-05-27 00:25:29,972 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (4341 chars)
+2026-05-27 00:25:30,506 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='按你这份拆解，把公众号从「主编视角」彻底改成「人间清醒观察家」视角。下面是**可直接落地**的全套升级方案。 --- ## 一、人设升级：从"主编"到"故事收集'
+2026-05-27 00:26:26,502 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=56.0s api_calls=3 response=569 chars
+2026-05-27 00:26:26,512 INFO gateway.platforms.base: [Feishu] Sending response (569 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 00:27:30,746 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e68d1ef88a4c3a8546b12ff21b
+2026-05-27 00:27:30,746 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e68d1ef88a4c3a8546b12ff21b type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='内容的字数太少了' media=0
+2026-05-27 00:27:31,806 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (8 chars)
+2026-05-27 00:27:32,295 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='内容的字数太少了'
+2026-05-27 00:29:57,094 INFO gateway.platforms.feishu: Feishu button resolved 1 approval(s) for session agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (choice=always, user=ou_d8fa42b66f19c9c4771ceff33c5716de)
+2026-05-27 00:30:14,268 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=162.0s api_calls=8 response=706 chars
+2026-05-27 00:30:14,279 INFO gateway.platforms.base: [Feishu] Sending response (706 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 00:33:11,141 INFO gateway.platforms.feishu: [Feishu] Received raw message type=merge_forward message_id=om_x100b6e68faa810a0c3a3919ce389a8b
+2026-05-27 00:33:11,141 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e68faa810a0c3a3919ce389a8b type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='[Merged forward message]' media=0
+2026-05-27 00:33:11,251 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e68faa6a4a0c2d259d1b8802ba
+2026-05-27 00:33:11,858 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e68faa6a4a0c2d259d1b8802ba type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='<p>这是我之前龙虾的,更新一下小红书</p>' media=0
+2026-05-27 00:33:12,187 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (24 chars)
+2026-05-27 00:33:12,730 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='[Merged forward message]'
+2026-05-27 00:33:13,186 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:om_x100b6e68faa810a0c3a3919ce389a8b (23 chars)
+2026-05-27 00:33:13,754 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='<p>这是我之前龙虾的,更新一下小红书</p>'
+2026-05-27 00:33:18,508 INFO [20260527_002242_401233] gateway.run: Session split detected: 20260527_002242_401233 → 20260527_003314_3b0b35 (compression)
+2026-05-27 00:33:18,548 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=5.8s api_calls=1 response=20 chars
+2026-05-27 00:33:18,569 INFO gateway.platforms.base: [Feishu] Sending response (20 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 00:33:43,192 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=29.4s api_calls=6 response=212 chars
+2026-05-27 00:33:43,212 INFO gateway.platforms.base: [Feishu] Sending response (212 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 00:34:12,562 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e68f68dfca0c349ae7dbf67999
+2026-05-27 00:34:12,563 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e68f68dfca0c349ae7dbf67999 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='2和3都要' media=0
+2026-05-27 00:34:14,041 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_1970438f7fcf1b96 (5 chars)
+2026-05-27 00:34:14,688 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='2和3都要'
+2026-05-27 00:37:05,641 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e688ddcc0a8c2150319dcb2f3f
+2026-05-27 00:37:05,642 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e688ddcc0a8c2150319dcb2f3f type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='更新文案风格, 调整邮件模板' media=0
+2026-05-27 00:37:06,690 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_1970438f7fcf1b96 (14 chars)
+2026-05-27 00:37:06,691 INFO gateway.run: Gateway intercepted clarify text response (session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_1970438f7fcf1b96, id=dcb073403a)
+2026-05-27 00:38:29,923 INFO gateway.platforms.feishu: [Feishu] Received raw message type=post message_id=om_x100b6e688698a0a8c3b7dbfb9f07a19
+2026-05-27 00:38:29,924 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e688698a0a8c3b7dbfb9f07a19 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='jorge5月21日 23:17\n我需要给你加一个每日任务\n每天晚上11点给我生成一个旅游攻略，国内的景点你任选，这个攻略是发布到小红书的，所以要给我小红书文案，还有一下需要用chatgpt image2生成主视角海报，要给我生成此海报的文' media=0
+2026-05-27 00:38:30,969 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (1308 chars)
+2026-05-27 00:38:31,523 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='jorge5月21日 23:17 我需要给你加一个每日任务 每天晚上11点给我生成一个旅游攻略，国内的景点你任选，这个攻略是发布到小红书的，所以要给我小红书文案'
+2026-05-27 00:40:32,321 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=120.8s api_calls=9 response=599 chars
+2026-05-27 00:40:32,344 INFO gateway.platforms.base: [Feishu] Sending response (599 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 00:43:58,561 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e689212c0a0c2309da96782759
+2026-05-27 00:43:58,561 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e689212c0a0c2309da96782759 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='缺失了小红书的 话题,也就是 #什么什么什么' media=0
+2026-05-27 00:43:59,635 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (22 chars)
+2026-05-27 00:44:00,142 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='缺失了小红书的 话题,也就是 #什么什么什么'
+2026-05-27 00:45:00,862 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e68ae0e04a0c312ba05108a5ba
+2026-05-27 00:45:00,863 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e68ae0e04a0c312ba05108a5ba type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='这里不做了' media=0
+2026-05-27 00:45:01,899 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_1970438f7fcf1b96 (5 chars)
+2026-05-27 00:45:01,900 INFO gateway.run: Gateway intercepted clarify text response (session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_1970438f7fcf1b96, id=a57a540030)
+2026-05-27 00:45:06,173 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=651.5s api_calls=9 response=21 chars
+2026-05-27 00:45:06,206 INFO gateway.platforms.base: [Feishu] Sending response (21 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 00:45:19,584 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=79.4s api_calls=17 response=413 chars
+2026-05-27 00:45:19,596 INFO gateway.platforms.base: [Feishu] Sending response (413 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 00:45:47,496 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e68ad62e4a0c289835b213d71f
+2026-05-27 00:45:47,497 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e68ad62e4a0c289835b213d71f type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='我给你一张图,你参考这个图的UI,和内容的位置' media=0
+2026-05-27 00:45:48,537 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (23 chars)
+2026-05-27 00:45:49,057 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='我给你一张图,你参考这个图的UI,和内容的位置'
+2026-05-27 00:45:55,518 INFO [20260527_003314_3b0b35] gateway.run: Session split detected: 20260527_003314_3b0b35 → 20260527_004550_ede8f7 (compression)
+2026-05-27 00:45:55,526 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=6.5s api_calls=1 response=10 chars
+2026-05-27 00:45:55,540 INFO gateway.platforms.base: [Feishu] Sending response (10 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 00:46:11,976 INFO gateway.platforms.feishu: [Feishu] Received raw message type=image message_id=om_x100b6e68abf8b4a4c4d82ea40c9101d
+2026-05-27 00:46:12,870 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e68abf8b4a4c4d82ea40c9101d type=photo chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='' media=1
+2026-05-27 00:46:14,077 INFO gateway.platforms.feishu: [Feishu] Flushing media batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:media:photo with 1 attachment(s)
+2026-05-27 00:46:14,574 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg=''
+2026-05-27 00:46:15,001 INFO gateway.run: Image routing: text (mode=text). Pre-analyzing 1 image(s) via vision_analyze.
+2026-05-27 00:46:43,729 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=29.2s api_calls=7 response=189 chars
+2026-05-27 00:46:43,741 INFO gateway.platforms.base: [Feishu] Sending response (175 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 00:46:44,374 WARNING gateway.platforms.base: [Feishu] Failed to send media (): File not found: <path>
+2026-05-27 00:50:07,699 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e68bd3c18a4c453564ac4c23fe
+2026-05-27 00:50:07,700 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e68bd3c18a4c453564ac4c23fe type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='这张截图展示了一个**移动端旅游攻略详情页**的UI设计，整体采用**小红书风格**的清新、信息密集型排版。以下是精准的结构化描述：\n---\n## 一、整体框架\n| 层级 | 内容 | 设计特征 |\n|------|------|-----' media=0
+2026-05-27 00:50:08,761 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (2573 chars)
+2026-05-27 00:50:09,289 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='这张截图展示了一个**移动端旅游攻略详情页**的UI设计，整体采用**小红书风格**的清新、信息密集型排版。以下是精准的结构化描述： --- ## 一、整体框架'
+2026-05-27 00:51:19,202 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=69.9s api_calls=10 response=581 chars
+2026-05-27 00:51:19,218 INFO gateway.platforms.base: [Feishu] Sending response (581 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 00:53:46,418 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e694f5044a4c4ad0dc586306c1
+2026-05-27 00:53:46,419 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e694f5044a4c4ad0dc586306c1 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='| **导航栏** | 无 | ← 返回 + ⋮⋮⋮ 更多 |\n去掉这个,邮件发送人都是 权权的HERMES(),括号里是内容,例如责这个括号里是小红书' media=0
+2026-05-27 00:53:47,474 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (76 chars)
+2026-05-27 00:53:47,969 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='| **导航栏** | 无 | ← 返回 + ⋮⋮⋮ 更多 | 去掉这个,邮件发送人都是 权权的HERMES(),括号里是内容,例如责这个括号里是小红书'
+2026-05-27 00:55:00,677 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=72.7s api_calls=16 response=159 chars
+2026-05-27 00:55:00,693 INFO gateway.platforms.base: [Feishu] Sending response (159 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 00:55:26,163 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e6949178534c1032eb5ac98e4d
+2026-05-27 00:55:26,163 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e6949178534c1032eb5ac98e4d type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='很有进步,很棒' media=0
+2026-05-27 00:55:27,215 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (7 chars)
+2026-05-27 00:55:27,705 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='很有进步,很棒'
+2026-05-27 00:55:32,300 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=4.6s api_calls=1 response=49 chars
+2026-05-27 00:55:32,341 INFO gateway.platforms.base: [Feishu] Sending response (49 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 00:56:13,958 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e69441b48a0c32dfdb113a7102
+2026-05-27 00:56:13,959 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e69441b48a0c32dfdb113a7102 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='接下来调整公众号,我给你一个图的描述' media=0
+2026-05-27 00:56:14,989 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (18 chars)
+2026-05-27 00:56:15,480 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='接下来调整公众号,我给你一个图的描述'
+2026-05-27 00:56:21,033 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=5.6s api_calls=1 response=10 chars
+2026-05-27 00:56:21,042 INFO gateway.platforms.base: [Feishu] Sending response (10 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 01:00:17,012 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e6954cb4ca8c4de591e83b5964
+2026-05-27 01:00:17,013 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e6954cb4ca8c4de591e83b5964 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='这张截图展示了一个**公众号/自媒体文章的生产模板页**，主题是**"围炉家常话·人间清醒观察家"**系列。整体采用**"结构化写作工具+预览排版"**的双重属性设计，UI上偏向**编辑器模板风格**，用强烈的色彩标签系统来标注文章骨架。\n' media=0
+2026-05-27 01:00:19,453 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (4082 chars)
+2026-05-27 01:00:19,985 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='这张截图展示了一个**公众号/自媒体文章的生产模板页**，主题是**"围炉家常话·人间清醒观察家"**系列。整体采用**"结构化写作工具+预览排版"**的双重属'
+2026-05-27 01:04:21,160 INFO [20260527_004550_ede8f7] gateway.run: Session split detected: 20260527_004550_ede8f7 → 20260527_010208_e1a597 (compression)
+2026-05-27 01:04:21,200 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=241.2s api_calls=26 response=481 chars
+2026-05-27 01:04:21,224 INFO gateway.platforms.base: [Feishu] Sending response (481 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 01:08:48,826 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e6974c99ca4c2d7eda1268a7f4
+2026-05-27 01:08:48,827 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e6974c99ca4c2d7eda1268a7f4 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='按你刚升级的标准，给你一套今日头条专用的完整方案。头条的中老年男性用户极多，对「养老、遗产、赡养、亲戚恩怨」的阅读量非常夸张，而且长文吃流量。\n---\n一、头条号命名（与「围炉家常话」同系列）\n名称 风格 注册建议\n围炉家常话 ⭐首选 直接' media=0
+2026-05-27 01:08:51,271 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (4928 chars)
+2026-05-27 01:08:51,790 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='按你刚升级的标准，给你一套今日头条专用的完整方案。头条的中老年男性用户极多，对「养老、遗产、赡养、亲戚恩怨」的阅读量非常夸张，而且长文吃流量。 --- 一、头条'
+2026-05-27 01:11:58,738 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e690b2ee8a0c3bb808e744fc5c
+2026-05-27 01:11:58,739 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e690b2ee8a0c3bb808e744fc5c type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='创建一个每天晚上8点半发送邮件给我的头条生产内容' media=0
+2026-05-27 01:11:59,792 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (24 chars)
+2026-05-27 01:17:04,278 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e691631bca8c338f8fd2ffc965
+2026-05-27 01:17:04,278 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e691631bca8c338f8fd2ffc965 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='暂停' media=0
+2026-05-27 01:17:05,306 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (2 chars)
+2026-05-27 01:17:09,251 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=497.5s api_calls=1 response=17 chars
+2026-05-27 01:17:09,261 INFO gateway.platforms.base: [Feishu] Sending response (17 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 01:17:29,241 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e69144780acc431c094ff1813c
+2026-05-27 01:17:29,762 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e69144780acc431c094ff1813c type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='继续完成这个' media=0
+2026-05-27 01:17:30,814 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:om_x100b6e6974c99ca4c2d7eda1268a7f4 (6 chars)
+2026-05-27 01:17:31,344 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='继续完成这个'
+2026-05-27 01:17:52,837 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=21.5s api_calls=3 response=1957 chars
+2026-05-27 01:17:52,851 INFO gateway.platforms.base: [Feishu] Sending response (1957 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 01:18:48,662 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e69114c70a0c3c8d277d56c37e
+2026-05-27 01:18:48,662 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e69114c70a0c3c8d277d56c37e type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='发件人用 围炉家常话（头条）\n创建脚本,每晚8点半执行一次' media=0
+2026-05-27 01:18:49,701 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_19705b69670f5b81 (29 chars)
+2026-05-27 01:18:50,204 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='发件人用 围炉家常话（头条） 创建脚本,每晚8点半执行一次'
+2026-05-27 01:21:55,903 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=185.7s api_calls=13 response=771 chars
+2026-05-27 01:21:55,928 INFO gateway.platforms.base: [Feishu] Sending response (771 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 01:32:09,401 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e69df4164a4c3a330d2a773223
+2026-05-27 01:32:09,402 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e69df4164a4c3a330d2a773223 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='你能获取我公众号和头条这个方向,目前市场上用户反应比较好的文章吗' media=0
+2026-05-27 01:32:10,447 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (32 chars)
+2026-05-27 01:32:10,944 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='你能获取我公众号和头条这个方向,目前市场上用户反应比较好的文章吗'
+2026-05-27 01:33:43,451 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=92.5s api_calls=9 response=1368 chars
+2026-05-27 01:33:43,471 INFO gateway.platforms.base: [Feishu] Sending response (1368 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 01:33:48,810 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:om_x100b6e68faa810a0c3a3919ce389a8b (idle=3606s)
+2026-05-27 01:33:48,810 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-05-27 01:36:31,078 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e69ef25e8a4c43d3eb1d9387c5
+2026-05-27 01:36:31,079 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e69ef25e8a4c43d3eb1d9387c5 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='应该已经创建过了,你检查一下' media=0
+2026-05-27 01:36:32,070 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (14 chars)
+2026-05-27 01:36:32,560 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='应该已经创建过了,你检查一下'
+2026-05-27 01:37:33,336 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=60.8s api_calls=10 response=650 chars
+2026-05-27 01:37:33,347 INFO gateway.platforms.base: [Feishu] Sending response (650 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 01:38:50,759 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e69e469b4a0c1016f059dfe544
+2026-05-27 01:38:50,760 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e69e469b4a0c1016f059dfe544 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='需要升级' media=0
+2026-05-27 01:38:51,779 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (4 chars)
+2026-05-27 01:38:52,253 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='需要升级'
+2026-05-27 01:40:33,901 INFO [20260527_010208_e1a597] gateway.run: Session split detected: 20260527_010208_e1a597 → 20260527_013853_45b607 (compression)
+2026-05-27 01:40:33,932 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=101.7s api_calls=8 response=539 chars
+2026-05-27 01:40:33,956 INFO gateway.platforms.base: [Feishu] Sending response (539 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 01:41:34,769 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e69fa2c7ca0c218cfdc04b762a
+2026-05-27 01:41:34,769 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e69fa2c7ca0c218cfdc04b762a type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='以下是更新后的完整任务指令，已把**「研究成果立即落地到生产」**作为硬性机制写进去：\n---\n**致 Hermes：用户不在期间的自主研究任务**\n**任务目标**\n在我（用户）不在线期间，你需主动、持续地研究「公众号」和「今日头条」两个' media=0
+2026-05-27 01:41:35,804 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (2594 chars)
+2026-05-27 01:41:36,298 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='以下是更新后的完整任务指令，已把**「研究成果立即落地到生产」**作为硬性机制写进去： --- **致 Hermes：用户不在期间的自主研究任务** **任务目'
+2026-05-27 01:43:50,729 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=134.4s api_calls=14 response=1057 chars
+2026-05-27 01:43:50,742 INFO gateway.platforms.base: [Feishu] Sending response (1057 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 01:48:49,804 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_1970438f7fcf1b96 (idle=3824s)
+2026-05-27 01:48:49,804 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-05-27 02:18:51,857 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:om_x100b6e6974c99ca4c2d7eda1268a7f4 (idle=3659s)
+2026-05-27 02:18:51,858 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-05-27 02:23:52,168 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_19705b69670f5b81 (idle=3716s)
+2026-05-27 02:23:52,168 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-05-27 02:43:53,339 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (idle=3603s)
+2026-05-27 02:43:53,340 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-05-27 04:03:57,975 INFO gateway.run: Session expiry: 5 sessions to finalize (feishu:5)
+2026-05-27 04:03:57,996 INFO gateway.run: Session expiry done: 5 finalized
+2026-05-27 11:54:00,019 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e52e3bf389cb362125397eeaf7
+2026-05-27 11:54:00,020 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e52e3bf389cb362125397eeaf7 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='1 B方案可以，拉黑可以改为 屏蔽 等中性词\n2 推送时间要差异化\n3.每日一次' media=0
+2026-05-27 11:54:01,531 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (40 chars)
+2026-05-27 11:54:02,108 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='1 B方案可以，拉黑可以改为 屏蔽 等中性词 2 推送时间要差异化 3.每日一次'
+2026-05-27 11:54:42,946 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e52feefdcf4b3c30fff30e4069
+2026-05-27 11:54:42,946 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e52feefdcf4b3c30fff30e4069 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='先暂停' media=0
+2026-05-27 11:54:44,055 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (3 chars)
+2026-05-27 11:55:07,722 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=65.6s api_calls=1 response=85 chars
+2026-05-27 11:55:07,741 INFO gateway.platforms.base: [Feishu] Sending response (85 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 11:55:36,419 INFO gateway.platforms.feishu: [Feishu] Received raw message type=post message_id=om_x100b6e52fdb53d44b2141b6b94861e8
+2026-05-27 11:55:37,086 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e52fdb53d44b2141b6b94861e8 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='1. "拉黑" → "屏蔽" 等中性词\n2. 推送时间差异化\n3. 每日一次' media=0
+2026-05-27 11:55:38,213 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_1970531e174f5b97 (38 chars)
+2026-05-27 11:55:38,823 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='1. "拉黑" → "屏蔽" 等中性词 2. 推送时间差异化 3. 每日一次'
+2026-05-27 11:56:28,989 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=50.2s api_calls=3 response=235 chars
+2026-05-27 11:56:29,003 INFO gateway.platforms.base: [Feishu] Sending response (235 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 11:57:55,594 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e52f2e054b0b14cc72b56950b6
+2026-05-27 11:57:55,595 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e52f2e054b0b14cc72b56950b6 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='我们来优化一下小红书，你先执行一次' media=0
+2026-05-27 11:57:56,693 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (17 chars)
+2026-05-27 11:57:57,263 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='我们来优化一下小红书，你先执行一次'
+2026-05-27 11:58:44,341 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=47.1s api_calls=5 response=300 chars
+2026-05-27 11:58:44,351 INFO gateway.platforms.base: [Feishu] Sending response (300 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 12:01:12,115 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e5286b9b908b4a68d7468b8907
+2026-05-27 12:01:12,116 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e5286b9b908b4a68d7468b8907 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='内容还是不吸引人，你研究一下小面这篇，我觉得你需要学习一下，并且写出更好的旅游攻略\n藏在西藏的林芝，震撼得让人心颤\n刚从林芝回来，整个人都被治愈了😭\n📍 西藏 · 林芝 · 3天2夜攻略\nDay 1｜初识林芝\n- 上午：抵达林芝，入住景区门' media=0
+2026-05-27 12:01:13,248 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (485 chars)
+2026-05-27 12:01:13,858 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='内容还是不吸引人，你研究一下小面这篇，我觉得你需要学习一下，并且写出更好的旅游攻略 藏在西藏的林芝，震撼得让人心颤 刚从林芝回来，整个人都被治愈了😭 📍 西藏 '
+2026-05-27 12:07:46,256 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e52afdad4a8b3b8a590e145645
+2026-05-27 12:07:46,925 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e52afdad4a8b3b8a590e145645 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='方案B，使用按天备份，备份时间希望是凌晨' media=0
+2026-05-27 12:07:48,012 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_19703695ee4f9be0 (20 chars)
+2026-05-27 12:07:48,586 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='方案B，使用按天备份，备份时间希望是凌晨'
+2026-05-27 12:08:04,080 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=15.5s api_calls=1 response=378 chars
+2026-05-27 12:08:04,096 INFO gateway.platforms.base: [Feishu] Sending response (378 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 12:09:00,715 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e52ab737d3cb3d241430881160
+2026-05-27 12:09:00,715 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e52ab737d3cb3d241430881160 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='2点，github里要完整，服务器只需要最近一周' media=0
+2026-05-27 12:09:01,818 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_19703695ee4f9be0 (24 chars)
+2026-05-27 12:09:02,379 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='2点，github里要完整，服务器只需要最近一周'
+2026-05-27 12:09:35,685 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=33.3s api_calls=5 response=388 chars
+2026-05-27 12:09:35,699 INFO gateway.platforms.base: [Feishu] Sending response (388 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 12:09:40,185 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=506.3s api_calls=47 response=382 chars
+2026-05-27 12:09:40,215 INFO gateway.platforms.base: [Feishu] Sending response (382 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 12:13:10,992 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e52bbaf54b4b2633b77001d018
+2026-05-27 12:13:10,992 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e52bbaf54b4b2633b77001d018 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='方式2，已配置' media=0
+2026-05-27 12:13:12,084 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_19703695ee4f9be0 (7 chars)
+2026-05-27 12:13:12,650 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='方式2，已配置'
+2026-05-27 12:13:37,209 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=24.6s api_calls=3 response=437 chars
+2026-05-27 12:13:37,220 INFO gateway.platforms.base: [Feishu] Sending response (437 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 12:14:15,402 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e52b7a4ec84b4a4cac77b16335
+2026-05-27 12:14:15,403 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e52b7a4ec84b4a4cac77b16335 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='你有我github的全部权限，现在是缺失什么？' media=0
+2026-05-27 12:14:16,519 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_19703695ee4f9be0 (23 chars)
+2026-05-27 12:14:17,058 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='你有我github的全部权限，现在是缺失什么？'
+2026-05-27 12:14:31,511 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=14.5s api_calls=2 response=320 chars
+2026-05-27 12:14:31,521 INFO gateway.platforms.base: [Feishu] Sending response (320 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 12:14:44,803 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e52b58c54b4b28423b4e581327
+2026-05-27 12:14:44,804 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e52b58c54b4b28423b4e581327 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='昨天你还帮我推送了' media=0
+2026-05-27 12:14:45,854 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_19703695ee4f9be0 (9 chars)
+2026-05-27 12:14:46,400 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='昨天你还帮我推送了'
+2026-05-27 12:15:07,224 INFO gateway.platforms.feishu: Feishu button resolved 1 approval(s) for session agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_19703695ee4f9be0 (choice=always, user=ou_d8fa42b66f19c9c4771ceff33c5716de)
+2026-05-27 12:16:19,491 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=93.1s api_calls=9 response=367 chars
+2026-05-27 12:16:19,510 INFO gateway.platforms.base: [Feishu] Sending response (367 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 12:16:45,714 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e534c0320a8b4cf25392a2bb50
+2026-05-27 12:16:45,715 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e534c0320a8b4cf25392a2bb50 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='方式1' media=0
+2026-05-27 12:16:46,837 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_19703695ee4f9be0 (3 chars)
+2026-05-27 12:16:47,409 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='方式1'
+2026-05-27 12:16:51,817 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=4.4s api_calls=1 response=261 chars
+2026-05-27 12:16:51,827 INFO gateway.platforms.base: [Feishu] Sending response (261 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 12:19:23,167 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e53426abcbcb37f12b9947f2ff
+2026-05-27 12:19:23,168 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e53426abcbcb37f12b9947f2ff type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='github...sLEp' media=0
+2026-05-27 12:19:24,231 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_19703695ee4f9be0 (93 chars)
+2026-05-27 12:19:24,777 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='github...ZBKH'
+2026-05-27 12:31:06,108 INFO gateway.platforms.feishu: Feishu button resolved 1 approval(s) for session agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_19703695ee4f9be0 (choice=always, user=ou_d8fa42b66f19c9c4771ceff33c5716de)
+2026-05-27 12:31:11,112 INFO gateway.platforms.feishu: Feishu button resolved 0 approval(s) for session agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_19703695ee4f9be0 (choice=always, user=ou_d8fa42b66f19c9c4771ceff33c5716de)
+2026-05-27 12:32:27,566 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e5373635cb8b24ac9f572971d9
+2026-05-27 12:32:27,567 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e5373635cb8b24ac9f572971d9 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='我和你所有会话，都能知道你拥有我服务器，github，邮件的权限，这些写到公共知识里' media=0
+2026-05-27 12:32:28,636 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (42 chars)
+2026-05-27 12:32:29,210 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='我和你所有会话，都能知道你拥有我服务器，github，邮件的权限，这些写到公共知识里'
+2026-05-27 12:32:37,305 INFO gateway.platforms.feishu: Feishu button resolved 1 approval(s) for session agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_19703695ee4f9be0 (choice=always, user=ou_d8fa42b66f19c9c4771ceff33c5716de)
+2026-05-27 12:32:43,249 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=14.0s api_calls=2 response=231 chars
+2026-05-27 12:32:43,260 INFO gateway.platforms.base: [Feishu] Sending response (231 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 12:32:43,351 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=798.6s api_calls=12 response=343 chars
+2026-05-27 12:32:43,366 INFO gateway.platforms.base: [Feishu] Sending response (343 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 12:59:31,800 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_1970531e174f5b97 (idle=3783s)
+2026-05-27 12:59:31,801 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-05-27 13:04:49,426 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e53f9c754a0b12cbad5cafa85b
+2026-05-27 13:04:49,426 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e53f9c754a0b12cbad5cafa85b type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='检查一下NGINX是否启动' media=0
+2026-05-27 13:04:50,541 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (13 chars)
+2026-05-27 13:04:51,185 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='检查一下NGINX是否启动'
+2026-05-27 13:05:27,465 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=36.3s api_calls=4 response=85 chars
+2026-05-27 13:05:27,480 INFO gateway.platforms.base: [Feishu] Sending response (85 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 13:12:12,261 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e539c7a94b8b2c4ce37539ecd6
+2026-05-27 13:12:12,261 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e539c7a94b8b2c4ce37539ecd6 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='https://github.com/yanghq168/wannengai\n部署这个项目,要求域名[wannengai.vip](https://wannengai.vip/) 能直接访问根页面\nchatgpt.wannengai.vip' media=0
+2026-05-27 13:12:13,357 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (134 chars)
+2026-05-27 13:12:13,916 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='https://github.com/yanghq168/wannengai 部署这个项目,要求域名[wannengai.vip](https://wannen'
+2026-05-27 13:16:13,107 INFO gateway.platforms.feishu: Feishu button resolved 1 approval(s) for session agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (choice=always, user=ou_d8fa42b66f19c9c4771ceff33c5716de)
+2026-05-27 13:18:34,894 INFO gateway.platforms.feishu: Feishu button resolved 1 approval(s) for session agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (choice=always, user=ou_d8fa42b66f19c9c4771ceff33c5716de)
+2026-05-27 13:18:55,063 INFO gateway.platforms.feishu: Feishu button resolved 1 approval(s) for session agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (choice=always, user=ou_d8fa42b66f19c9c4771ceff33c5716de)
+2026-05-27 13:27:25,506 INFO gateway.platforms.feishu: Feishu button resolved 1 approval(s) for session agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (choice=always, user=ou_d8fa42b66f19c9c4771ceff33c5716de)
+2026-05-27 13:34:33,772 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_19703695ee4f9be0 (idle=3711s)
+2026-05-27 13:34:33,772 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-05-27 13:36:41,764 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e5c605ca888b3eee859b398ac6
+2026-05-27 13:36:41,765 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e5c605ca888b3eee859b398ac6 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='域名还在备岸,先不忙测' media=0
+2026-05-27 13:36:42,883 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (11 chars)
+2026-05-27 13:36:42,884 INFO gateway.run: Gateway intercepted clarify text response (session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f, id=27940496f0)
+2026-05-27 13:36:50,425 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=1476.5s api_calls=26 response=176 chars
+2026-05-27 13:36:50,459 INFO gateway.platforms.base: [Feishu] Sending response (176 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 14:39:38,903 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (idle=3769s)
+2026-05-27 14:39:38,904 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-05-27 16:01:30,709 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e5e0356e8acb149c1c211f853e
+2026-05-27 16:01:30,709 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e5e0356e8acb149c1c211f853e type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='我应该有UI相关的AGENT,你看下公众号,小红书,头条,给我发的邮件,有没有什么可优化的' media=0
+2026-05-27 16:01:32,275 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (45 chars)
+2026-05-27 16:01:32,989 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='我应该有UI相关的AGENT,你看下公众号,小红书,头条,给我发的邮件,有没有什么可优化的'
+2026-05-27 16:04:00,380 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=147.4s api_calls=8 response=774 chars
+2026-05-27 16:04:00,392 INFO gateway.platforms.base: [Feishu] Sending response (774 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 16:11:29,594 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e5e3dc6b09cb32be9647bb70de
+2026-05-27 16:11:29,594 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e5e3dc6b09cb32be9647bb70de type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='经典描述被忽略 这条不要采纳,其他的可改' media=0
+2026-05-27 16:11:30,803 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (20 chars)
+2026-05-27 16:11:31,465 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='经典描述被忽略 这条不要采纳,其他的可改'
+2026-05-27 16:13:11,330 INFO [20260527_115402_bc4e4b0b] gateway.run: Session split detected: 20260527_115402_bc4e4b0b → 20260527_161133_5a09ad (compression)
+2026-05-27 16:13:11,366 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=99.9s api_calls=10 response=501 chars
+2026-05-27 16:13:11,387 INFO gateway.platforms.base: [Feishu] Sending response (501 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 16:23:07,580 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e5ed0641c90b34929228d2a40b
+2026-05-27 16:23:07,580 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e5ed0641c90b34929228d2a40b type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='你发我的内容,少一个边框把当前所有内容框起来,让看起来的内容更立体' media=0
+2026-05-27 16:23:08,713 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (33 chars)
+2026-05-27 16:23:09,320 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='你发我的内容,少一个边框把当前所有内容框起来,让看起来的内容更立体'
+2026-05-27 16:23:35,264 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=25.9s api_calls=4 response=324 chars
+2026-05-27 16:23:35,281 INFO gateway.platforms.base: [Feishu] Sending response (324 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 16:25:10,226 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e5ee89be894b274b3f90661b2e
+2026-05-27 16:25:10,226 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e5ee89be894b274b3f90661b2e type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='跑一个' media=0
+2026-05-27 16:25:11,359 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (3 chars)
+2026-05-27 16:25:11,999 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='跑一个'
+2026-05-27 16:25:22,249 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=10.2s api_calls=2 response=27 chars
+2026-05-27 16:25:22,260 INFO gateway.platforms.base: [Feishu] Sending response (27 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 16:25:44,681 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e5ee6b63cc0b482f628f3b4160
+2026-05-27 16:25:44,681 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e5ee6b63cc0b482f628f3b4160 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='符合预期' media=0
+2026-05-27 16:25:45,858 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (4 chars)
+2026-05-27 16:25:46,512 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='符合预期'
+2026-05-27 16:25:50,827 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=4.3s api_calls=1 response=33 chars
+2026-05-27 16:25:50,837 INFO gateway.platforms.base: [Feishu] Sending response (33 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 17:29:51,320 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (idle=3841s)
+2026-05-27 17:29:51,320 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-05-27 20:07:40,256 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e59a67bf4a4b2cc6ac0ca1d48f
+2026-05-27 20:07:40,256 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e59a67bf4a4b2cc6ac0ca1d48f type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='https://www.wannengai.vip/\nhttps://chatgpt.wannengai.vip/\n上述两个均无法访问,需要调一下NGINX' media=0
+2026-05-27 20:07:41,702 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (78 chars)
+2026-05-27 20:07:42,281 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='https://www.wannengai.vip/ https://chatgpt.wannengai.vip/ 上述两个均无法访问,需要调一下NGINX'
+2026-05-27 20:08:39,327 INFO gateway.platforms.feishu: Feishu button resolved 1 approval(s) for session agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (choice=always, user=ou_d8fa42b66f19c9c4771ceff33c5716de)
+2026-05-27 20:13:51,883 INFO gateway.platforms.feishu: Feishu button resolved 1 approval(s) for session agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (choice=always, user=ou_d8fa42b66f19c9c4771ceff33c5716de)
+2026-05-27 20:19:29,252 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=707.0s api_calls=33 response=372 chars
+2026-05-27 20:19:29,275 INFO gateway.platforms.base: [Feishu] Sending response (372 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 21:20:05,717 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (idle=3637s)
+2026-05-27 21:20:05,717 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-05-27 21:55:43,915 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e5b3321f4b8c27dc21244045de
+2026-05-27 21:55:43,915 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e5b3321f4b8c27dc21244045de type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='再部署一次,需要 aivideo.wannengai.vip 访问 子模块aivideo' media=0
+2026-05-27 21:55:45,011 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (44 chars)
+2026-05-27 21:55:45,677 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='再部署一次,需要 aivideo.wannengai.vip 访问 子模块aivideo'
+2026-05-27 21:56:24,536 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=38.9s api_calls=5 response=108 chars
+2026-05-27 21:56:24,550 INFO gateway.platforms.base: [Feishu] Sending response (108 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 21:58:54,481 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e5bc71750acc2979318e7aba63
+2026-05-27 21:58:54,482 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e5bc71750acc2979318e7aba63 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='https://github.com/yanghq168/wannengai#' media=0
+2026-05-27 21:58:55,900 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (39 chars)
+2026-05-27 21:58:56,463 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='https://github.com/yanghq168/wannengai#'
+2026-05-27 22:00:19,010 INFO gateway.platforms.feishu: Feishu button resolved 1 approval(s) for session agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (choice=always, user=ou_d8fa42b66f19c9c4771ceff33c5716de)
+2026-05-27 22:01:18,369 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=141.9s api_calls=10 response=398 chars
+2026-05-27 22:01:18,403 INFO gateway.platforms.base: [Feishu] Sending response (398 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 22:04:02,037 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e5bd3dca8a8c341d04172857da
+2026-05-27 22:04:02,038 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e5bd3dca8a8c341d04172857da type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='你再部署一次master分支呢' media=0
+2026-05-27 22:04:03,136 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (15 chars)
+2026-05-27 22:04:03,715 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='你再部署一次master分支呢'
+2026-05-27 22:09:17,209 INFO [20260527_161133_5a09ad] gateway.run: Session split detected: 20260527_161133_5a09ad → 20260527_220404_35bf74 (compression)
+2026-05-27 22:09:17,251 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=313.5s api_calls=22 response=443 chars
+2026-05-27 22:09:17,274 INFO gateway.platforms.base: [Feishu] Sending response (443 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 22:11:52,006 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e5bf4bbaca0c2804dde7251d34
+2026-05-27 22:11:52,006 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e5bf4bbaca0c2804dde7251d34 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='git@github.com:yanghq168/wannengai.git\n这就是我的项目,你直接拉取就是了' media=0
+2026-05-27 22:11:53,118 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (55 chars)
+2026-05-27 22:11:53,692 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='git@github.com:yanghq168/wannengai.git 这就是我的项目,你直接拉取就是了'
+2026-05-27 22:21:05,735 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e5b93dc64a0c34536fc52b6261
+2026-05-27 22:21:05,735 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e5b93dc64a0c34536fc52b6261 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='卡点在哪现在' media=0
+2026-05-27 22:21:06,830 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (6 chars)
+2026-05-27 22:22:12,506 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e5baff0013cc4a878dadea5cbc
+2026-05-27 22:22:12,506 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e5baff0013cc4a878dadea5cbc type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='这个项目才7M啊,会超时?' media=0
+2026-05-27 22:22:13,583 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (13 chars)
+2026-05-27 22:24:04,650 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e5ba6f21cacc4ad6195d1ed63c
+2026-05-27 22:24:04,651 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e5ba6f21cacc4ad6195d1ed63c type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='暂停' media=0
+2026-05-27 22:24:05,740 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (2 chars)
+2026-05-27 22:24:23,853 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=750.2s api_calls=2 response=230 chars
+2026-05-27 22:24:23,864 INFO gateway.platforms.base: [Feishu] Sending response (230 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 22:24:25,038 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e5ba748e8b4c3dcf8ec39dfd9f
+2026-05-27 22:24:25,039 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e5ba748e8b4c3dcf8ec39dfd9f type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='[git@github.com:](mailto:git@github.com:)yanghq168/wannengai.git\n部署这个项目' media=0
+2026-05-27 22:24:26,128 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (71 chars)
+2026-05-27 22:24:26,676 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='[git@github.com:](mailto:git@github.com:)yanghq168/wannengai.git 部署这个项目'
+2026-05-27 22:28:05,057 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=218.4s api_calls=17 response=328 chars
+2026-05-27 22:28:05,082 INFO gateway.platforms.base: [Feishu] Sending response (328 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 22:32:55,989 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e4447b86ca4c288e0a65d799e4
+2026-05-27 22:32:55,989 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e4447b86ca4c288e0a65d799e4 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='为何你部署以后,aivideo的tap平滑切换不在了' media=0
+2026-05-27 22:32:57,060 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (26 chars)
+2026-05-27 22:32:57,647 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='为何你部署以后,aivideo的tap平滑切换不在了'
+2026-05-27 22:38:55,967 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=358.3s api_calls=60 response=1426 chars
+2026-05-27 22:38:55,994 INFO gateway.platforms.base: [Feishu] Sending response (1426 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 22:43:33,846 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e447f9e60b0c340c19b7242d16
+2026-05-27 22:43:33,846 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e447f9e60b0c340c19b7242d16 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='修复一下,并重新部署,注意aivideo,chatgpt和主页,都是要部署的,不只aivideo一个模块' media=0
+2026-05-27 22:43:34,889 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (52 chars)
+2026-05-27 22:43:35,443 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='修复一下,并重新部署,注意aivideo,chatgpt和主页,都是要部署的,不只aivideo一个模块'
+2026-05-27 22:49:26,073 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=350.6s api_calls=43 response=774 chars
+2026-05-27 22:49:26,091 INFO gateway.platforms.base: [Feishu] Sending response (774 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 22:59:02,626 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e4425ade4a4c28e940279e989c
+2026-05-27 22:59:02,627 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e4425ade4a4c28e940279e989c type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='这是一个整体的项目,部署后按理 80端口是映射的主站内容呀' media=0
+2026-05-27 22:59:03,673 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (29 chars)
+2026-05-27 22:59:04,214 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='这是一个整体的项目,部署后按理 80端口是映射的主站内容呀'
+2026-05-27 23:01:57,327 INFO gateway.platforms.feishu: Feishu button resolved 1 approval(s) for session agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (choice=always, user=ou_d8fa42b66f19c9c4771ceff33c5716de)
+2026-05-27 23:02:30,292 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e44369470a8c3f359dd73c4348
+2026-05-27 23:02:30,323 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e44369470a8c3f359dd73c4348 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='独立子域名也是我需要的' media=0
+2026-05-27 23:02:31,437 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (11 chars)
+2026-05-27 23:03:25,831 INFO gateway.platforms.feishu: Feishu button resolved 1 approval(s) for session agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (choice=always, user=ou_d8fa42b66f19c9c4771ceff33c5716de)
+2026-05-27 23:04:22,823 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=318.6s api_calls=8 response=510 chars
+2026-05-27 23:04:22,844 INFO gateway.platforms.base: [Feishu] Sending response (510 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 23:09:47,338 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e44dd6704a0c337cd94a97dded
+2026-05-27 23:09:47,338 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e44dd6704a0c337cd94a97dded type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='刚刚你用全权养的虾为名,给我发了小红书,内容和我们最近的小红书不一致,看下是不是有历史的定时任务没有删掉' media=0
+2026-05-27 23:09:48,410 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (52 chars)
+2026-05-27 23:09:48,937 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='刚刚你用全权养的虾为名,给我发了小红书,内容和我们最近的小红书不一致,看下是不是有历史的定时任务没有删掉'
+2026-05-27 23:10:02,099 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=13.2s api_calls=2 response=235 chars
+2026-05-27 23:10:02,110 INFO gateway.platforms.base: [Feishu] Sending response (235 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 23:10:48,054 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e44d9b844b4c10da366f8e086d
+2026-05-27 23:10:48,054 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e44d9b844b4c10da366f8e086d type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='你检查一下呢,我们已有新的小红书了,是这两个吗' media=0
+2026-05-27 23:10:49,143 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (23 chars)
+2026-05-27 23:10:49,678 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='你检查一下呢,我们已有新的小红书了,是这两个吗'
+2026-05-27 23:11:13,792 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=24.1s api_calls=4 response=363 chars
+2026-05-27 23:11:13,803 INFO gateway.platforms.base: [Feishu] Sending response (363 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 23:12:17,368 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e44d3c63cb8c283fa7012e639d
+2026-05-27 23:12:17,369 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e44d3c63cb8c283fa7012e639d type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='权权的HERMES 是新的, 权权养的虾才是旧的,也就是今晚23:00我收到了两个小红书的推送,其中一个是旧的' media=0
+2026-05-27 23:12:18,401 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (55 chars)
+2026-05-27 23:12:18,910 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='权权的HERMES 是新的, 权权养的虾才是旧的,也就是今晚23:00我收到了两个小红书的推送,其中一个是旧的'
+2026-05-27 23:12:19,357 INFO gateway.run: Session hygiene: 400 messages, ~71,871 tokens (actual) — auto-compressing (threshold: 85% of 262,144 = 222,822 tokens)
+2026-05-27 23:13:18,235 INFO gateway.run: Session hygiene: compressed 400 → 7 msgs, ~71,871 → ~1,757 tokens
+2026-05-27 23:14:13,872 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=115.0s api_calls=4 response=519 chars
+2026-05-27 23:14:13,887 INFO gateway.platforms.base: [Feishu] Sending response (519 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 23:14:36,273 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e44eb7454a4c43fdf909242a96
+2026-05-27 23:14:36,274 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e44eb7454a4c43fdf909242a96 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='确认' media=0
+2026-05-27 23:14:37,358 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (2 chars)
+2026-05-27 23:14:37,926 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='确认'
+2026-05-27 23:15:01,123 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=23.2s api_calls=3 response=475 chars
+2026-05-27 23:15:01,134 INFO gateway.platforms.base: [Feishu] Sending response (475 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 23:15:32,126 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e44e6f66ca4c296fbdb07f0449
+2026-05-27 23:15:32,127 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e44e6f66ca4c296fbdb07f0449 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='需要' media=0
+2026-05-27 23:15:33,226 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (2 chars)
+2026-05-27 23:15:33,756 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='需要'
+2026-05-27 23:15:49,555 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=15.8s api_calls=2 response=374 chars
+2026-05-27 23:15:49,567 INFO gateway.platforms.base: [Feishu] Sending response (374 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 23:16:07,355 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e44e5a1c8a4c4a8ceb46592460
+2026-05-27 23:16:07,356 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e44e5a1c8a4c4a8ceb46592460 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='再次拉取并部署一次项目' media=0
+2026-05-27 23:16:08,471 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (11 chars)
+2026-05-27 23:16:09,021 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='再次拉取并部署一次项目'
+2026-05-27 23:17:30,984 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e44fe6baca8c42d8abc7295ef9
+2026-05-27 23:17:30,985 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e44fe6baca8c42d8abc7295ef9 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='你直接控制远程服务器拉取不行吗' media=0
+2026-05-27 23:17:32,061 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (15 chars)
+2026-05-27 23:21:22,979 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e44f1e900b0c446a5c74fd25b9
+2026-05-27 23:21:22,980 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e44f1e900b0c446a5c74fd25b9 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='只拉取有变更的就行' media=0
+2026-05-27 23:21:24,029 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (9 chars)
+2026-05-27 23:22:20,652 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=371.6s api_calls=6 response=446 chars
+2026-05-27 23:22:20,663 INFO gateway.platforms.base: [Feishu] Sending response (446 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-27 23:22:50,049 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e448a5abcacc4f20a04b93d67e
+2026-05-27 23:22:50,049 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e448a5abcacc4f20a04b93d67e type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='你记住以后的部署方式都是远程服务器,拉取变更代码,然后部署' media=0
+2026-05-27 23:22:51,095 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (29 chars)
+2026-05-27 23:22:51,611 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='你记住以后的部署方式都是远程服务器,拉取变更代码,然后部署'
+2026-05-27 23:23:58,128 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=66.5s api_calls=1 response=381 chars
+2026-05-27 23:23:58,137 INFO gateway.platforms.base: [Feishu] Sending response (381 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 00:12:34,871 INFO gateway.run: Image cache cleanup: removed 1 stale file(s)
+2026-05-28 00:25:20,249 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (idle=3682s)
+2026-05-28 00:25:20,249 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-05-28 00:28:17,663 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e45f4ddc0a4c33564fbbabe9f1
+2026-05-28 00:28:17,664 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e45f4ddc0a4c33564fbbabe9f1 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='拉取并部署' media=0
+2026-05-28 00:28:19,070 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (5 chars)
+2026-05-28 00:28:19,584 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='拉取并部署'
+2026-05-28 00:32:52,566 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=273.0s api_calls=15 response=766 chars
+2026-05-28 00:32:52,583 INFO gateway.platforms.base: [Feishu] Sending response (766 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 00:33:28,937 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e4583491ca8b4b30efcec8bea3
+2026-05-28 00:33:28,937 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e4583491ca8b4b30efcec8bea3 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='我远程服务器是海外服务器，访问github应该是很快的' media=0
+2026-05-28 00:33:29,982 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (27 chars)
+2026-05-28 00:33:30,505 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='我远程服务器是海外服务器，访问github应该是很快的'
+2026-05-28 00:48:04,396 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=873.9s api_calls=24 response=652 chars
+2026-05-28 00:48:04,411 INFO gateway.platforms.base: [Feishu] Sending response (652 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 01:12:35,115 INFO gateway.run: Image cache cleanup: removed 1 stale file(s)
+2026-05-28 01:50:26,079 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (idle=3742s)
+2026-05-28 01:50:26,080 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-05-28 04:00:33,509 INFO gateway.run: Session expiry: 2 sessions to finalize (feishu:2)
+2026-05-28 04:00:33,522 INFO gateway.run: Session expiry done: 2 finalized
+2026-05-28 08:07:31,259 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e4c3ae5eca0b34892dcf811a33
+2026-05-28 08:07:31,260 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e4c3ae5eca0b34892dcf811a33 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='aivideo发布的代码不是最新的' media=0
+2026-05-28 08:07:32,672 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_19703695ee4f9be0 (17 chars)
+2026-05-28 08:07:33,203 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='aivideo发布的代码不是最新的'
+2026-05-28 08:10:28,099 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=174.9s api_calls=17 response=1205 chars
+2026-05-28 08:10:28,155 INFO gateway.platforms.base: [Feishu] Sending response (1205 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 08:38:57,551 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e4ca4c6c0a0c3f7712fe36440b
+2026-05-28 08:38:57,552 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e4ca4c6c0a0c3f7712fe36440b type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='拉取一下最新的 aivideo模块的代码并部署' media=0
+2026-05-28 08:38:58,659 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_19703695ee4f9be0 (23 chars)
+2026-05-28 08:38:59,219 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='拉取一下最新的 aivideo模块的代码并部署'
+2026-05-28 08:40:21,187 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e4ca18b7cacc4a04fb0a5fee34
+2026-05-28 08:40:21,187 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e4ca18b7cacc4a04fb0a5fee34 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='chatgpt的代码,也不是最新的,远程 服务器上' media=0
+2026-05-28 08:40:22,275 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_19703695ee4f9be0 (25 chars)
+2026-05-28 08:41:37,493 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=158.3s api_calls=11 response=1015 chars
+2026-05-28 08:41:37,508 INFO gateway.platforms.base: [Feishu] Sending response (1015 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 08:43:42,644 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e4cb51034acb3c75bf957e8c4d
+2026-05-28 08:43:42,645 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e4cb51034acb3c75bf957e8c4d type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='是服务器需要拉取github的最新代码覆盖服务器' media=0
+2026-05-28 08:43:43,738 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_19703695ee4f9be0 (24 chars)
+2026-05-28 08:43:44,315 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='是服务器需要拉取github的最新代码覆盖服务器'
+2026-05-28 08:46:03,087 INFO gateway.platforms.feishu: Feishu button resolved 0 approval(s) for session agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_19703695ee4f9be0 (choice=always, user=ou_d8fa42b66f19c9c4771ceff33c5716de)
+2026-05-28 08:46:16,062 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=151.7s api_calls=20 response=859 chars
+2026-05-28 08:46:16,084 INFO gateway.platforms.base: [Feishu] Sending response (859 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 09:50:53,820 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_19703695ee4f9be0 (idle=3878s)
+2026-05-28 09:50:53,821 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-05-28 10:54:06,274 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e4eaa1904b0b2c3233109de41f
+2026-05-28 10:54:06,274 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e4eaa1904b0b2c3233109de41f type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='再拉取并发布一次' media=0
+2026-05-28 10:54:07,735 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_19703695ee4f9be0 (8 chars)
+2026-05-28 10:54:08,421 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='再拉取并发布一次'
+2026-05-28 10:55:15,602 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=67.2s api_calls=6 response=538 chars
+2026-05-28 10:55:15,612 INFO gateway.platforms.base: [Feishu] Sending response (538 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 11:56:01,505 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_19703695ee4f9be0 (idle=3646s)
+2026-05-28 11:56:01,506 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-05-28 13:14:28,812 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e48bd8c54b8c3c5d8d85cffd0d
+2026-05-28 13:14:28,813 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e48bd8c54b8c3c5d8d85cffd0d type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='再拉取并发布一次' media=0
+2026-05-28 13:14:30,244 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_19703695ee4f9be0 (8 chars)
+2026-05-28 13:14:30,823 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='再拉取并发布一次'
+2026-05-28 13:17:59,139 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=208.3s api_calls=11 response=729 chars
+2026-05-28 13:17:59,150 INFO gateway.platforms.base: [Feishu] Sending response (729 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 14:21:10,835 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_19703695ee4f9be0 (idle=3792s)
+2026-05-28 14:21:10,836 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-05-28 17:18:46,789 INFO gateway.platforms.feishu: [Feishu] Received raw message type=post message_id=om_x100b6eb4c993005cb27519b9de2728e
+2026-05-28 17:18:46,790 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb4c993005cb27519b9de2728e type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='你能获取抖音今日这三类的前十热搜吗\n1. 生活情感类（如：“原来这就是内耗”、“父母的爱有多细节”）\n2. 职场/搞钱类（如：“00后整顿职场”、“下班后的副业”）\n3. 轻科普/冷知识类（如：“为什么高铁没有E座”、“洗洁精的误区”）' media=0
+2026-05-28 17:18:48,351 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (118 chars)
+2026-05-28 17:18:49,007 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='你能获取抖音今日这三类的前十热搜吗 1. 生活情感类（如：“原来这就是内耗”、“父母的爱有多细节”） 2. 职场/搞钱类（如：“00后整顿职场”、“下班后的副业'
+2026-05-28 17:19:26,861 INFO gateway.platforms.feishu: Feishu button resolved 1 approval(s) for session agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (choice=always, user=ou_d8fa42b66f19c9c4771ceff33c5716de)
+2026-05-28 17:21:49,490 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=180.5s api_calls=8 response=1168 chars
+2026-05-28 17:21:49,500 INFO gateway.platforms.base: [Feishu] Sending response (1168 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 17:26:41,230 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb4ebca8498b28aa7b9cf251ab
+2026-05-28 17:26:41,230 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb4ebca8498b28aa7b9cf251ab type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='这个选题环节,每天下午5点来一次' media=0
+2026-05-28 17:26:42,378 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (16 chars)
+2026-05-28 17:26:43,058 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='这个选题环节,每天下午5点来一次'
+2026-05-28 17:27:15,294 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=32.2s api_calls=2 response=521 chars
+2026-05-28 17:27:15,303 INFO gateway.platforms.base: [Feishu] Sending response (521 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 17:27:39,736 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb4e6610480b4be2268dc082f3
+2026-05-28 17:27:39,736 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb4e6610480b4be2268dc082f3 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='运行一次,采集的当日的哈' media=0
+2026-05-28 17:27:40,885 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (12 chars)
+2026-05-28 17:27:41,551 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='运行一次,采集的当日的哈'
+2026-05-28 17:28:43,346 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb4e265908cb4c64714dab3ac7
+2026-05-28 17:28:43,346 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb4e265908cb4c64714dab3ac7 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='这个选题直接LARK消息给我,别用邮件' media=0
+2026-05-28 17:28:44,554 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (19 chars)
+2026-05-28 17:37:35,255 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=593.7s api_calls=20 response=422 chars
+2026-05-28 17:37:35,267 INFO gateway.platforms.base: [Feishu] Sending response (422 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 17:44:56,962 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb4a74d40b8b34499c2af03354
+2026-05-28 17:44:56,963 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb4a74d40b8b34499c2af03354 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='调研一下,抖音热搜变爆款文章 SOP' media=0
+2026-05-28 17:44:58,089 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (18 chars)
+2026-05-28 17:44:58,707 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='调研一下,抖音热搜变爆款文章 SOP'
+2026-05-28 17:52:20,249 INFO [20260527_220404_35bf74] gateway.run: Session split detected: 20260527_220404_35bf74 → 20260528_174802_3900ae (compression)
+2026-05-28 17:52:20,278 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=441.6s api_calls=31 response=1241 chars
+2026-05-28 17:52:20,294 INFO gateway.platforms.base: [Feishu] Sending response (1241 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 17:57:04,008 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb5583cb4b4b3094394cf92d99
+2026-05-28 17:57:04,009 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb5583cb4b4b3094394cf92d99 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='原本的定时任务小红书旅游攻略保持不变,抖音和公众号的都暂停,开始用这套选题加爆款机制做' media=0
+2026-05-28 17:57:05,133 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (43 chars)
+2026-05-28 17:57:05,781 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='原本的定时任务小红书旅游攻略保持不变,抖音和公众号的都暂停,开始用这套选题加爆款机制做'
+2026-05-28 17:57:30,986 INFO [20260528_174802_3900ae] gateway.run: Session split detected: 20260528_174802_3900ae → 20260528_175720_68f433 (compression)
+2026-05-28 17:57:30,993 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=25.2s api_calls=3 response=292 chars
+2026-05-28 17:57:31,004 INFO gateway.platforms.base: [Feishu] Sending response (292 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 18:03:06,818 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb5635374a0b3de345120507be
+2026-05-28 18:03:06,819 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb5635374a0b3de345120507be type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='用抖音热搜的选题逻辑 生成公众号,头条,小红书,和抖音口播的内容\n补充两点:\n1.要带上#什么 携带的话题,\n2如果是图文,需要几张图,分别放哪里,和CHATGPT IMAGE2生图的提示词,图里可以带文字,需要你判断是否要带,一般封面图是' media=0
+2026-05-28 18:03:07,975 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (124 chars)
+2026-05-28 18:03:08,615 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='用抖音热搜的选题逻辑 生成公众号,头条,小红书,和抖音口播的内容 补充两点: 1.要带上#什么 携带的话题, 2如果是图文,需要几张图,分别放哪里,和CHATG'
+2026-05-28 18:06:56,304 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=227.7s api_calls=31 response=728 chars
+2026-05-28 18:06:56,325 INFO gateway.platforms.base: [Feishu] Sending response (728 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 18:07:39,365 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb57064087cb3b6c172075ac3d
+2026-05-28 18:07:39,365 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb57064087cb3b6c172075ac3d type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='你一次性频繁发太多了,这个是要有间隔的,过一会再发' media=0
+2026-05-28 18:07:40,471 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (25 chars)
+2026-05-28 18:07:41,130 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='你一次性频繁发太多了,这个是要有间隔的,过一会再发'
+2026-05-28 18:07:55,459 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=14.3s api_calls=3 response=182 chars
+2026-05-28 18:07:55,468 INFO gateway.platforms.base: [Feishu] Sending response (182 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 18:08:59,462 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb50d6458a8b1485c8a283edd0
+2026-05-28 18:08:59,462 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb50d6458a8b1485c8a283edd0 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='你目前已发的,内容是完全不达标的,我不是要口播,是要按热搜选题后的爆款完整文章,这个你之前已经总结了' media=0
+2026-05-28 18:09:00,569 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (50 chars)
+2026-05-28 18:09:01,156 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='你目前已发的,内容是完全不达标的,我不是要口播,是要按热搜选题后的爆款完整文章,这个你之前已经总结了'
+2026-05-28 18:10:59,602 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=118.4s api_calls=8 response=523 chars
+2026-05-28 18:10:59,618 INFO gateway.platforms.base: [Feishu] Sending response (523 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 18:45:38,715 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb583d068a4b34c74004400e6f
+2026-05-28 18:45:38,715 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb583d068a4b34c74004400e6f type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='下次做测试的时候，先发一封让我看，不要连着发被qq邮箱风格' media=0
+2026-05-28 18:45:39,844 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (29 chars)
+2026-05-28 18:45:40,428 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='下次做测试的时候，先发一封让我看，不要连着发被qq邮箱风格'
+2026-05-28 18:46:17,325 INFO [20260528_175720_68f433] gateway.run: Session split detected: 20260528_175720_68f433 → 20260528_184541_aff4ee (compression)
+2026-05-28 18:46:17,330 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=36.9s api_calls=2 response=105 chars
+2026-05-28 18:46:17,342 INFO gateway.platforms.base: [Feishu] Sending response (105 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 18:48:10,321 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb598543ca0b4a02f116809e3d
+2026-05-28 18:48:10,322 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb598543ca0b4a02f116809e3d type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='问题很大，勾子没有吸引人，标题没有吸引人，一张图都没有，配置没有公众号的封面图。你再调研和自查一下' media=0
+2026-05-28 18:48:11,429 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (49 chars)
+2026-05-28 18:48:11,971 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='问题很大，勾子没有吸引人，标题没有吸引人，一张图都没有，配置没有公众号的封面图。你再调研和自查一下'
+2026-05-28 18:53:27,661 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=315.7s api_calls=19 response=346 chars
+2026-05-28 18:53:27,695 INFO gateway.platforms.base: [Feishu] Sending response (346 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 18:55:54,734 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb5bd5028bcb16e5d5ae119b74
+2026-05-28 18:55:54,735 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb5bd5028bcb16e5d5ae119b74 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='当你选择了某个爆款，先查一下别人发这个爆款的内容，你的内容其实和爆款标题是没有关系的' media=0
+2026-05-28 18:55:55,803 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (42 chars)
+2026-05-28 18:55:56,367 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='当你选择了某个爆款，先查一下别人发这个爆款的内容，你的内容其实和爆款标题是没有关系的'
+2026-05-28 18:57:56,640 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=120.3s api_calls=3 response=378 chars
+2026-05-28 18:57:56,654 INFO gateway.platforms.base: [Feishu] Sending response (378 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 18:59:15,694 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb64ee090acb12fda1352a0a32
+2026-05-28 18:59:15,695 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb64ee090acb12fda1352a0a32 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='你有安装 find-skill 吗' media=0
+2026-05-28 18:59:16,771 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (17 chars)
+2026-05-28 18:59:17,364 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='你有安装 find-skill 吗'
+2026-05-28 18:59:34,676 INFO [20260528_184541_aff4ee] gateway.run: Session split detected: 20260528_184541_aff4ee → 20260528_185918_94454b (compression)
+2026-05-28 18:59:34,719 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=17.4s api_calls=2 response=306 chars
+2026-05-28 18:59:34,729 INFO gateway.platforms.base: [Feishu] Sending response (306 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 19:00:06,910 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb64dac84a8b2e2f80dfec889a
+2026-05-28 19:00:06,910 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb64dac84a8b2e2f80dfec889a type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='可以查询有帮助的skill' media=0
+2026-05-28 19:00:08,057 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (13 chars)
+2026-05-28 19:00:08,676 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='可以查询有帮助的skill'
+2026-05-28 19:00:33,393 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=24.7s api_calls=2 response=821 chars
+2026-05-28 19:00:33,405 INFO gateway.platforms.base: [Feishu] Sending response (821 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 19:03:24,623 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb6417340bcb4c15eb32f99512
+2026-05-28 19:03:24,623 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb6417340bcb4c15eb32f99512 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='按你的推荐来' media=0
+2026-05-28 19:03:25,738 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (6 chars)
+2026-05-28 19:03:26,335 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='按你的推荐来'
+2026-05-28 19:05:57,565 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=151.2s api_calls=13 response=493 chars
+2026-05-28 19:05:57,607 INFO gateway.platforms.base: [Feishu] Sending response (493 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 20:06:34,634 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (idle=3637s)
+2026-05-28 20:06:34,635 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-05-28 20:16:20,311 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb76ff4b4a0b344161711c8d4f
+2026-05-28 20:16:20,311 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb76ff4b4a0b344161711c8d4f type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='继续这个 当你选择了某个爆款，先查一下别人发这个爆款的内容，你的内容其实和爆款标题是没有关系的' media=0
+2026-05-28 20:16:21,761 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (47 chars)
+2026-05-28 20:16:22,361 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='继续这个 当你选择了某个爆款，先查一下别人发这个爆款的内容，你的内容其实和爆款标题是没有关系的'
+2026-05-28 20:19:33,293 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=190.9s api_calls=17 response=276 chars
+2026-05-28 20:19:33,320 INFO gateway.platforms.base: [Feishu] Sending response (276 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 20:20:30,500 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb77e16c0a4b3787d9d6d7e1c2
+2026-05-28 20:20:30,500 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb77e16c0a4b3787d9d6d7e1c2 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='需要' media=0
+2026-05-28 20:20:31,571 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (2 chars)
+2026-05-28 20:20:32,157 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='需要'
+2026-05-28 20:23:42,029 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb7721e08a4b16fc336c97660c
+2026-05-28 20:23:42,029 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb7721e08a4b16fc336c97660c type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='旅游攻略的小红书不要动，那个一直保留' media=0
+2026-05-28 20:23:43,127 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (18 chars)
+2026-05-28 20:24:51,141 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=259.0s api_calls=5 response=548 chars
+2026-05-28 20:24:51,184 INFO gateway.platforms.base: [Feishu] Sending response (548 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 20:27:37,975 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb7055938acb16eadca0a91048
+2026-05-28 20:27:37,976 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb7055938acb16eadca0a91048 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='你刚刚发我的测试邮件如下问题\n1.没有任何图，如果需要我自己去搜某个人的图需要写下来，如果需要chatgpt image2 进行生成图，需要提供提示词\n2.内容的字数太少了，和爆款的公众号一点不符合，公众号和头条都是有一定的字数要求，才会更' media=0
+2026-05-28 20:27:39,100 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (132 chars)
+2026-05-28 20:27:39,723 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='你刚刚发我的测试邮件如下问题 1.没有任何图，如果需要我自己去搜某个人的图需要写下来，如果需要chatgpt image2 进行生成图，需要提供提示词 2.内容'
+2026-05-28 20:32:39,050 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=299.3s api_calls=28 response=489 chars
+2026-05-28 20:32:39,081 INFO gateway.platforms.base: [Feishu] Sending response (489 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 20:33:07,613 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb72ee010b4b266ae3e42569d9
+2026-05-28 20:33:07,613 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb72ee010b4b266ae3e42569d9 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='可以' media=0
+2026-05-28 20:33:08,711 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (2 chars)
+2026-05-28 20:33:09,300 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='可以'
+2026-05-28 20:33:15,712 INFO [20260528_185918_94454b] gateway.run: Session split detected: 20260528_185918_94454b → 20260528_203310_10ddf2 (compression)
+2026-05-28 20:33:15,751 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=6.5s api_calls=1 response=264 chars
+2026-05-28 20:33:15,762 INFO gateway.platforms.base: [Feishu] Sending response (264 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 20:37:16,597 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb721708cacb2c17906aee264e
+2026-05-28 20:37:16,597 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb721708cacb2c17906aee264e type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='可以' media=0
+2026-05-28 20:37:17,728 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (2 chars)
+2026-05-28 20:37:18,290 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='可以'
+2026-05-28 20:38:55,482 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=97.2s api_calls=13 response=315 chars
+2026-05-28 20:38:55,494 INFO gateway.platforms.base: [Feishu] Sending response (315 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 20:39:25,921 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb7391e0490b3dd0d1ecacbccf
+2026-05-28 20:39:25,922 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb7391e0490b3dd0d1ecacbccf type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='刚刚8点32分你给我发的邮件是测试邮件吗' media=0
+2026-05-28 20:39:26,976 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (20 chars)
+2026-05-28 20:39:27,496 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='刚刚8点32分你给我发的邮件是测试邮件吗'
+2026-05-28 20:39:34,236 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=6.7s api_calls=1 response=260 chars
+2026-05-28 20:39:34,249 INFO gateway.platforms.base: [Feishu] Sending response (260 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 20:41:20,346 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb73036a500c2bae9c6be73ee3
+2026-05-28 20:41:20,347 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb73036a500c2bae9c6be73ee3 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='但是你这个测试邮件,又是内容对不上标题的' media=0
+2026-05-28 20:41:21,435 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (20 chars)
+2026-05-28 20:41:21,974 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='但是你这个测试邮件,又是内容对不上标题的'
+2026-05-28 20:43:01,773 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=99.8s api_calls=12 response=390 chars
+2026-05-28 20:43:01,787 INFO gateway.platforms.base: [Feishu] Sending response (390 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 20:44:51,971 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb7c2f844a4c4f77059317fc94
+2026-05-28 20:44:51,972 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb7c2f844a4c4f77059317fc94 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='我有个问题,我从邮件里直接复制内容到小红书或者公众号,无法带上UI的格式,可以如何处理' media=0
+2026-05-28 20:44:53,045 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (43 chars)
+2026-05-28 20:44:53,600 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='我有个问题,我从邮件里直接复制内容到小红书或者公众号,无法带上UI的格式,可以如何处理'
+2026-05-28 20:45:01,954 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=8.4s api_calls=1 response=447 chars
+2026-05-28 20:45:01,966 INFO gateway.platforms.base: [Feishu] Sending response (447 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 20:45:34,291 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb7c014c490c2caa81de4ab7e8
+2026-05-28 20:45:34,292 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb7c014c490c2caa81de4ab7e8 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='我想要复制即带格式' media=0
+2026-05-28 20:45:35,476 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (9 chars)
+2026-05-28 20:45:36,051 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='我想要复制即带格式'
+2026-05-28 20:46:52,958 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=76.9s api_calls=12 response=457 chars
+2026-05-28 20:46:52,986 INFO gateway.platforms.base: [Feishu] Sending response (457 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 20:47:36,260 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb7d8b4f0acc3f37ced88e9aa4
+2026-05-28 20:47:36,260 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb7d8b4f0acc3f37ced88e9aa4 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='我意思是我要从过鼠标选中区域,复制,粘贴,能得到格式' media=0
+2026-05-28 20:47:37,335 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (26 chars)
+2026-05-28 20:47:37,944 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='我意思是我要从过鼠标选中区域,复制,粘贴,能得到格式'
+2026-05-28 20:47:49,977 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=12.0s api_calls=1 response=402 chars
+2026-05-28 20:47:49,988 INFO gateway.platforms.base: [Feishu] Sending response (402 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 20:51:50,927 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb7e8ae78a4c29b1bcbb8d3a04
+2026-05-28 20:51:50,928 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb7e8ae78a4c29b1bcbb8d3a04 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='我以前复制的话,格式是带了的,说明是有办法的' media=0
+2026-05-28 20:51:52,018 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (22 chars)
+2026-05-28 20:51:52,603 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='我以前复制的话,格式是带了的,说明是有办法的'
+2026-05-28 20:51:59,564 INFO [20260528_203310_10ddf2] gateway.run: Session split detected: 20260528_203310_10ddf2 → 20260528_205153_113148 (compression)
+2026-05-28 20:51:59,608 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=7.0s api_calls=1 response=126 chars
+2026-05-28 20:51:59,619 INFO gateway.platforms.base: [Feishu] Sending response (126 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 20:52:17,055 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb7e6c8ecb0c3f041b5d4df2ec
+2026-05-28 20:52:17,055 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb7e6c8ecb0c3f041b5d4df2ec type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='还是邮件里面,我复制至少排版都是对的' media=0
+2026-05-28 20:52:18,129 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (18 chars)
+2026-05-28 20:52:18,734 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='还是邮件里面,我复制至少排版都是对的'
+2026-05-28 20:52:24,722 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=6.0s api_calls=1 response=135 chars
+2026-05-28 20:52:24,732 INFO gateway.platforms.base: [Feishu] Sending response (135 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 20:55:09,652 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb7fc0070a0c322bbcdcfdb3b5
+2026-05-28 20:55:09,653 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb7fc0070a0c322bbcdcfdb3b5 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='你飞书发我试试' media=0
+2026-05-28 20:55:10,780 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (7 chars)
+2026-05-28 20:55:11,344 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='你飞书发我试试'
+2026-05-28 20:55:21,170 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=9.8s api_calls=3 response=62 chars
+2026-05-28 20:55:21,179 INFO gateway.platforms.base: [Feishu] Sending response (62 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 20:55:48,073 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb7fbfa38a0c3b1978fb68cd6c
+2026-05-28 20:55:48,073 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb7fbfa38a0c3b1978fb68cd6c type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='没有用' media=0
+2026-05-28 20:55:49,154 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (3 chars)
+2026-05-28 20:55:49,721 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='没有用'
+2026-05-28 20:55:55,473 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=5.8s api_calls=1 response=178 chars
+2026-05-28 20:55:55,483 INFO gateway.platforms.base: [Feishu] Sending response (178 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 20:56:10,801 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb7f86ecca4c28dd2302d074f7
+2026-05-28 20:56:10,801 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb7f86ecca4c28dd2302d074f7 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='需要' media=0
+2026-05-28 20:56:11,892 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (2 chars)
+2026-05-28 20:56:12,457 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='需要'
+2026-05-28 20:57:20,775 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=68.3s api_calls=15 response=281 chars
+2026-05-28 20:57:20,795 INFO gateway.platforms.base: [Feishu] Sending response (281 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 20:58:32,695 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb7f14c88a4c3495c1915041de
+2026-05-28 20:58:32,695 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb7f14c88a4c3495c1915041de type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='我们用小红书的旅游攻略这个测吧' media=0
+2026-05-28 20:58:33,789 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (15 chars)
+2026-05-28 20:58:34,333 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='我们用小红书的旅游攻略这个测吧'
+2026-05-28 20:58:46,923 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=12.6s api_calls=3 response=135 chars
+2026-05-28 20:58:46,934 INFO gateway.platforms.base: [Feishu] Sending response (135 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 21:34:59,808 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb006fc20acb36cc210594bffb
+2026-05-28 21:34:59,808 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb006fc20acb36cc210594bffb type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='就算格式不能复制，为何复制粘贴的话换行这些也是错的' media=0
+2026-05-28 21:35:00,948 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (25 chars)
+2026-05-28 21:35:01,507 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='就算格式不能复制，为何复制粘贴的话换行这些也是错的'
+2026-05-28 21:35:38,850 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=37.3s api_calls=6 response=230 chars
+2026-05-28 21:35:38,861 INFO gateway.platforms.base: [Feishu] Sending response (230 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 21:36:03,758 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb002e304b4b3c3a57c1fb4cdc
+2026-05-28 21:36:03,758 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb002e304b4b3c3a57c1fb4cdc type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='我先测一下网页版打开' media=0
+2026-05-28 21:36:04,828 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (10 chars)
+2026-05-28 21:36:05,368 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='我先测一下网页版打开'
+2026-05-28 21:36:09,129 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=3.8s api_calls=1 response=77 chars
+2026-05-28 21:36:09,140 INFO gateway.platforms.base: [Feishu] Sending response (77 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 21:37:54,808 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb01defa4a0b32c397f7848d91
+2026-05-28 21:37:54,809 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb01defa4a0b32c397f7848d91 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='先不管这个。你继续研究内容' media=0
+2026-05-28 21:37:55,887 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (13 chars)
+2026-05-28 21:37:56,455 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='先不管这个。你继续研究内容'
+2026-05-28 21:38:01,478 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=5.0s api_calls=1 response=238 chars
+2026-05-28 21:38:01,488 INFO gateway.platforms.base: [Feishu] Sending response (238 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 22:06:22,403 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb0f316f4a0c375f4999742a96
+2026-05-28 22:06:22,403 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb0f316f4a0c375f4999742a96 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='B' media=0
+2026-05-28 22:06:23,869 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (1 chars)
+2026-05-28 22:06:24,438 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='B'
+2026-05-28 22:07:29,369 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=64.9s api_calls=7 response=1104 chars
+2026-05-28 22:07:29,398 INFO gateway.platforms.base: [Feishu] Sending response (1104 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 22:07:42,326 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb08c1750a8b3c1319982065b9
+2026-05-28 22:07:42,326 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb08c1750a8b3c1319982065b9 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='更新' media=0
+2026-05-28 22:07:43,435 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (2 chars)
+2026-05-28 22:07:43,980 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='更新'
+2026-05-28 22:14:12,182 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=388.2s api_calls=12 response=455 chars
+2026-05-28 22:14:12,195 INFO gateway.platforms.base: [Feishu] Sending response (455 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 22:17:14,349 INFO gateway.platforms.feishu: Feishu button resolved 0 approval(s) for session agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (choice=always, user=ou_d8fa42b66f19c9c4771ceff33c5716de)
+2026-05-28 22:17:29,653 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb0a942eca0b12fe8cd42a289c
+2026-05-28 22:17:29,653 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb0a942eca0b12fe8cd42a289c type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='主题和内容完全不一致' media=0
+2026-05-28 22:17:30,737 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (10 chars)
+2026-05-28 22:17:31,294 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='主题和内容完全不一致'
+2026-05-28 22:19:37,586 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6eb0a14064a0b3c4d3723b8d59d
+2026-05-28 22:19:37,587 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6eb0a14064a0b3c4d3723b8d59d type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='有没有创作能力的skill' media=0
+2026-05-28 22:19:38,648 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (13 chars)
+2026-05-28 22:19:47,734 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=136.4s api_calls=2 response=417 chars
+2026-05-28 22:19:47,745 INFO gateway.platforms.base: [Feishu] Sending response (417 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-28 23:21:50,220 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (idle=3723s)
+2026-05-28 23:21:50,221 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-05-29 04:02:07,215 INFO gateway.run: Session expiry: 1 sessions to finalize (feishu:1)
+2026-05-29 04:02:07,221 INFO gateway.run: Session expiry done: 1 finalized
+2026-05-29 17:07:03,426 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6ea13daba484b28b8b8f09ca2dd
+2026-05-29 17:07:03,427 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6ea13daba484b28b8b8f09ca2dd type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='内容完全不匹配标题' media=0
+2026-05-29 17:07:04,635 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (9 chars)
+2026-05-29 17:07:05,348 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='内容完全不匹配标题'
+2026-05-29 17:07:52,457 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6ea138bb6480b4c3c3e08876535
+2026-05-29 17:07:52,458 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6ea138bb6480b4c3c3e08876535 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='爆款这个都停了，把以前走情感的公众号，头条的恢复一下' media=0
+2026-05-29 17:07:53,583 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (26 chars)
+2026-05-29 17:08:37,102 INFO [20260528_205153_113148] gateway.run: Session split detected: 20260528_205153_113148 → 20260529_170754_397910 (compression)
+2026-05-29 17:08:37,152 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=91.8s api_calls=9 response=351 chars
+2026-05-29 17:08:37,165 INFO gateway.platforms.base: [Feishu] Sending response (351 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-29 18:12:56,899 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (idle=3860s)
+2026-05-29 18:12:56,900 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-05-30 10:56:45,474 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e91500700acc4e1267f2a8574d
+2026-05-30 10:56:45,475 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e91500700acc4e1267f2a8574d type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='我还需要一个小红书旅游攻略,主要针对于周末2天一夜出行的,主题就是周末出逃计划' media=0
+2026-05-30 10:56:46,865 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (39 chars)
+2026-05-30 10:56:47,463 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='我还需要一个小红书旅游攻略,主要针对于周末2天一夜出行的,主题就是周末出逃计划'
+2026-05-30 10:58:45,831 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=118.4s api_calls=12 response=659 chars
+2026-05-30 10:58:45,845 INFO gateway.platforms.base: [Feishu] Sending response (659 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-30 11:59:01,220 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (idle=3616s)
+2026-05-30 11:59:01,220 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-05-30 15:25:35,518 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e9d40211c88c24a4598c214c6e
+2026-05-30 15:25:35,519 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e9d40211c88c24a4598c214c6e type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='我做内容的AGENT是在项目里哪个目录里,检索一下啊' media=0
+2026-05-30 15:25:36,911 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (26 chars)
+2026-05-30 15:25:37,456 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='我做内容的AGENT是在项目里哪个目录里,检索一下啊'
+2026-05-30 15:27:31,380 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=113.9s api_calls=14 response=618 chars
+2026-05-30 15:27:31,392 INFO gateway.platforms.base: [Feishu] Sending response (618 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-30 15:30:07,187 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e9d512a3cb8c44d4f6d18239ef
+2026-05-30 15:30:07,187 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e9d512a3cb8c44d4f6d18239ef type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='我的agent库里有没有呢' media=0
+2026-05-30 15:30:08,264 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (13 chars)
+2026-05-30 15:30:08,846 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='我的agent库里有没有呢'
+2026-05-30 15:30:40,315 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=31.5s api_calls=7 response=345 chars
+2026-05-30 15:30:40,326 INFO gateway.platforms.base: [Feishu] Sending response (345 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-30 15:31:17,429 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e9d6a8190acc4c9471c6238d14
+2026-05-30 15:31:17,430 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e9d6a8190acc4c9471c6238d14 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='我要看skill' media=0
+2026-05-30 15:31:18,491 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (8 chars)
+2026-05-30 15:31:19,066 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='我要看skill'
+2026-05-30 15:31:29,794 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=10.7s api_calls=2 response=901 chars
+2026-05-30 15:31:29,805 INFO gateway.platforms.base: [Feishu] Sending response (901 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-30 15:32:01,730 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e9d69dc9cacc266afb2bbf34a3
+2026-05-30 15:32:01,730 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e9d69dc9cacc266afb2bbf34a3 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='我自己去github看,你只需要告诉我目录' media=0
+2026-05-30 15:32:02,808 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (21 chars)
+2026-05-30 15:32:03,356 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='我自己去github看,你只需要告诉我目录'
+2026-05-30 15:32:07,395 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=4.0s api_calls=1 response=463 chars
+2026-05-30 15:32:07,405 INFO gateway.platforms.base: [Feishu] Sending response (463 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-30 16:00:11,535 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e9dde6604a0c39fe2285dd5320
+2026-05-30 16:00:11,536 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e9dde6604a0c39fe2285dd5320 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='这个skills在我哪个github项目里' media=0
+2026-05-30 16:00:12,632 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (21 chars)
+2026-05-30 16:00:13,178 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='这个skills在我哪个github项目里'
+2026-05-30 16:00:49,560 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=36.4s api_calls=7 response=366 chars
+2026-05-30 16:00:49,574 INFO gateway.platforms.base: [Feishu] Sending response (366 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-30 16:03:49,443 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e9dd081d040c4956f4ada0ee3c
+2026-05-30 16:03:49,444 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e9dd081d040c4956f4ada0ee3c type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='我之前说了定时备份,你一直没有做\nskill备份到 git@github.com:yanghq168/jorge-hermes-skills.git\nagency备份到 git@github.com:yanghq168/jorge-herm' media=0
+2026-05-30 16:03:50,626 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (133 chars)
+2026-05-30 16:03:51,150 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='我之前说了定时备份,你一直没有做 skill备份到 git@github.com:yanghq168/jorge-hermes-skills.git agenc'
+2026-05-30 16:05:27,596 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=96.4s api_calls=20 response=385 chars
+2026-05-30 16:05:27,619 INFO gateway.platforms.base: [Feishu] Sending response (385 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-30 16:05:39,202 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e9debe440a8c4f35fb14187aca
+2026-05-30 16:05:39,202 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e9debe440a8c4f35fb14187aca type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='备份完毕后,告诉我 wechat-article-daily.md 在哪' media=0
+2026-05-30 16:05:40,272 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (36 chars)
+2026-05-30 16:05:40,832 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='备份完毕后,告诉我 wechat-article-daily.md 在哪'
+2026-05-30 16:06:07,478 INFO [20260529_170754_397910] gateway.run: Session split detected: 20260529_170754_397910 → 20260530_160542_2aff69 (compression)
+2026-05-30 16:06:07,494 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=26.7s api_calls=4 response=328 chars
+2026-05-30 16:06:07,506 INFO gateway.platforms.base: [Feishu] Sending response (328 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-30 16:06:30,129 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e9de6982c8cc26907da757bb57
+2026-05-30 16:06:30,129 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e9de6982c8cc26907da757bb57 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='给我看wechat-article-daily.md的内容' media=0
+2026-05-30 16:06:31,166 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (29 chars)
+2026-05-30 16:06:31,704 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='给我看wechat-article-daily.md的内容'
+2026-05-30 16:06:57,646 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=25.9s api_calls=3 response=1751 chars
+2026-05-30 16:06:57,655 INFO gateway.platforms.base: [Feishu] Sending response (1751 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-30 16:07:34,345 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e9de29714b0c2156c154b9078e
+2026-05-30 16:07:34,345 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e9de29714b0c2156c154b9078e type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='给我小红书旅游的那个的MD' media=0
+2026-05-30 16:07:35,405 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (13 chars)
+2026-05-30 16:07:35,947 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='给我小红书旅游的那个的MD'
+2026-05-30 16:08:12,176 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=36.2s api_calls=5 response=381 chars
+2026-05-30 16:08:12,187 INFO gateway.platforms.base: [Feishu] Sending response (381 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-30 16:08:37,783 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e9dfe9f60b0c34ddde46cdd152
+2026-05-30 16:08:37,783 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e9dfe9f60b0c34ddde46cdd152 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='xhs-travel-guide-sample.md\n这几个' media=0
+2026-05-30 16:08:38,957 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (30 chars)
+2026-05-30 16:08:39,526 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='xhs-travel-guide-sample.md 这几个'
+2026-05-30 16:09:06,942 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=27.4s api_calls=2 response=4016 chars
+2026-05-30 16:09:06,956 INFO gateway.platforms.base: [Feishu] Sending response (4016 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-30 17:09:20,125 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (idle=3613s)
+2026-05-30 17:09:20,126 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-05-31 11:03:56,953 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6e8e1f0e3ca4b219607b80eb718
+2026-05-31 11:03:56,954 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6e8e1f0e3ca4b219607b80eb718 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='公众号的情感长文和周末出逃计划为何执行失败' media=0
+2026-05-31 11:03:58,050 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (21 chars)
+2026-05-31 11:03:58,618 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='公众号的情感长文和周末出逃计划为何执行失败'
+2026-05-31 11:12:59,101 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=540.5s api_calls=19 response=462 chars
+2026-05-31 11:12:59,116 INFO gateway.platforms.base: [Feishu] Sending response (462 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-31 12:15:27,899 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (idle=3749s)
+2026-05-31 12:15:27,900 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-05-31 13:17:21,000 INFO gateway.platforms.feishu: Feishu button resolved 0 approval(s) for session agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (choice=always, user=ou_d8fa42b66f19c9c4771ceff33c5716de)
+2026-05-31 20:22:00,988 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6ef6304950a0c345a97e53fcdb0
+2026-05-31 20:22:00,989 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6ef6304950a0c345a97e53fcdb0 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='公众号给我纯MD格式的发送给我' media=0
+2026-05-31 20:22:02,396 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (15 chars)
+2026-05-31 20:22:02,928 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='公众号给我纯MD格式的发送给我'
+2026-05-31 20:22:50,579 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=47.7s api_calls=4 response=1337 chars
+2026-05-31 20:22:50,589 INFO gateway.platforms.base: [Feishu] Sending response (1337 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-31 20:25:39,654 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6ef6c2e76ca8b32d87fd67f1b9b
+2026-05-31 20:25:39,655 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6ef6c2e76ca8b32d87fd67f1b9b type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='这是MD5格式的案例,你消化一下:\n# 探索 Markdown 的奇妙世界\n欢迎来到 Markdown 的奇妙世界！无论你是写作爱好者、开发者、博主，还是想要简单记录点什么的人，Markdown 都能成为你新的好伙伴。它不仅让写作变得简单明' media=0
+2026-05-31 20:25:42,139 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (5562 chars)
+2026-05-31 20:25:42,691 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='这是MD5格式的案例,你消化一下: # 探索 Markdown 的奇妙世界 欢迎来到 Markdown 的奇妙世界！无论你是写作爱好者、开发者、博主，还是想要简'
+2026-05-31 20:26:08,669 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=26.0s api_calls=1 response=1467 chars
+2026-05-31 20:26:08,679 INFO gateway.platforms.base: [Feishu] Sending response (1467 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-31 20:28:45,389 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6ef6d9011cacc2770721db06694
+2026-05-31 20:28:45,389 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6ef6d9011cacc2770721db06694 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='对话框我复制不了格式,通过其他方式给我' media=0
+2026-05-31 20:28:46,461 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (19 chars)
+2026-05-31 20:28:47,021 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='对话框我复制不了格式,通过其他方式给我'
+2026-05-31 20:29:33,620 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=46.6s api_calls=4 response=96 chars
+2026-05-31 20:29:33,636 INFO gateway.platforms.base: [Feishu] Sending response (96 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-31 20:33:37,086 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6ef6e4cb88a0c27d06b6aa6ba80
+2026-05-31 20:33:37,087 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6ef6e4cb88a0c27d06b6aa6ba80 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='以后微信公众号都要MD文件发送给我,不用留存再服务器' media=0
+2026-05-31 20:33:38,122 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (26 chars)
+2026-05-31 20:33:38,667 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='以后微信公众号都要MD文件发送给我,不用留存再服务器'
+2026-05-31 20:35:47,774 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=129.1s api_calls=12 response=181 chars
+2026-05-31 20:35:47,799 INFO gateway.platforms.base: [Feishu] Sending response (163 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-31 20:35:48,495 WARNING gateway.platforms.base: [Feishu] Failed to send media (): File not found: {filepath}\
+2026-05-31 20:40:07,250 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6ef68ca7f130c3d9b868def74c8
+2026-05-31 20:40:07,251 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6ef68ca7f130c3d9b868def74c8 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='邮件和飞书文件都要,因为邮件里有配图描述和发放位置\n你注意还可以改字内颜色,例如金句都可以是红色的\n例如: **<span style="color: rgba(255, 69, 0, 1)">手术费6万，后续康复还要3万。</span>*' media=0
+2026-05-31 20:40:08,295 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (121 chars)
+2026-05-31 20:40:08,827 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='邮件和飞书文件都要,因为邮件里有配图描述和发放位置 你注意还可以改字内颜色,例如金句都可以是红色的 例如: **<span style="color: rgba'
+2026-05-31 20:42:32,193 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=143.4s api_calls=11 response=338 chars
+2026-05-31 20:42:32,204 INFO gateway.platforms.base: [Feishu] Sending response (338 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-31 20:44:50,161 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6ef69ada78a4c2279b2b65ff2fc
+2026-05-31 20:44:50,162 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6ef69ada78a4c2279b2b65ff2fc type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='有对应的AGENT或者SKILL做一次优化吗,MD文件里字体颜色完全没有' media=0
+2026-05-31 20:44:51,234 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (36 chars)
+2026-05-31 20:44:51,768 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='有对应的AGENT或者SKILL做一次优化吗,MD文件里字体颜色完全没有'
+2026-05-31 20:47:17,534 INFO [20260530_160542_2aff69] gateway.run: Session split detected: 20260530_160542_2aff69 → 20260531_204453_df9d07 (compression)
+2026-05-31 20:47:17,583 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=145.8s api_calls=17 response=473 chars
+2026-05-31 20:47:17,597 INFO gateway.platforms.base: [Feishu] Sending response (465 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-31 21:01:49,437 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6ef75d00dcacc494e60ae160bef
+2026-05-31 21:01:49,437 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6ef75d00dcacc494e60ae160bef type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='颜色都统一用 **<span style="color: rgba(255, 69, 0, 1)">手术费6万，后续康复还要3万。</span>**\n例如这个方式就是红色,放入MD文件里,我自行会用这个格式二次转为公众号的,所以你给我的时候' media=0
+2026-05-31 21:01:50,485 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (129 chars)
+2026-05-31 21:01:51,035 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='颜色都统一用 **<span style="color: rgba(255, 69, 0, 1)">手术费6万，后续康复还要3万。</span>** 例如这个方'
+2026-05-31 21:03:02,914 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=71.9s api_calls=5 response=497 chars
+2026-05-31 21:03:02,937 INFO gateway.platforms.base: [Feishu] Sending response (497 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-31 21:06:51,529 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6ef7687dc8a4c4ca037fc999623
+2026-05-31 21:06:51,530 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6ef7687dc8a4c4ca037fc999623 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='没收到,发我' media=0
+2026-05-31 21:06:52,591 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (6 chars)
+2026-05-31 21:06:53,119 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='没收到,发我'
+2026-05-31 21:07:39,079 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=46.0s api_calls=6 response=14 chars
+2026-05-31 21:07:39,090 INFO gateway.platforms.base: [Feishu] Sending response (14 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-31 21:09:44,842 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6ef77f490d04c340fa4a5a47f04
+2026-05-31 21:09:44,843 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6ef77f490d04c340fa4a5a47f04 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='金句要插入在文章里,和文章内容对应,而不是最后给一个金句的模块' media=0
+2026-05-31 21:09:45,931 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (31 chars)
+2026-05-31 21:09:46,452 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='金句要插入在文章里,和文章内容对应,而不是最后给一个金句的模块'
+2026-05-31 21:10:25,389 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=38.9s api_calls=5 response=127 chars
+2026-05-31 21:10:25,399 INFO gateway.platforms.base: [Feishu] Sending response (127 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-05-31 22:11:02,563 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (idle=3637s)
+2026-05-31 22:11:02,563 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-06-01 17:02:58,933 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6ee0e2d13490b3e2bd1986f818d
+2026-06-01 17:02:58,933 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6ee0e2d13490b3e2bd1986f818d type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='刚刚发这个，标题和内容一点点的关系都沾不到，这个爆款邮件给停了' media=0
+2026-06-01 17:03:00,154 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (31 chars)
+2026-06-01 17:03:00,905 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='刚刚发这个，标题和内容一点点的关系都沾不到，这个爆款邮件给停了'
+2026-06-01 17:03:33,273 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=32.4s api_calls=3 response=365 chars
+2026-06-01 17:03:33,282 INFO gateway.platforms.base: [Feishu] Sending response (365 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-06-01 18:07:11,942 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (idle=3819s)
+2026-06-01 18:07:11,943 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-06-01 18:08:12,137 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6ee1ee7e6ff8c27f90a8dead4c8
+2026-06-01 18:08:12,138 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6ee1ee7e6ff8c27f90a8dead4c8 type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='小红书晚上发那个旅游的,也要保留' media=0
+2026-06-01 18:08:13,221 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (16 chars)
+2026-06-01 18:08:13,866 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='小红书晚上发那个旅游的,也要保留'
+2026-06-01 18:08:34,141 INFO gateway.run: response ready: platform=feishu chat=oc_39c71fb71c2db9be002545966567498f time=20.3s api_calls=1 response=225 chars
+2026-06-01 18:08:34,151 INFO gateway.platforms.base: [Feishu] Sending response (225 chars) to oc_39c71fb71c2db9be002545966567498f
+2026-06-01 19:12:16,105 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f (idle=3822s)
+2026-06-01 19:12:16,105 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-06-02 10:47:36,168 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-06-02 10:47:36,169 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1176 parent_name=systemd loadavg_1m=0.10 parent_cmdline='/usr/lib/systemd/systemd --user'
+2026-06-02 10:47:36,173 INFO gateway.run: Stopping gateway...
+2026-06-02 10:47:36,173 INFO gateway.run: Shutdown phase: notify_active_sessions done at +0.00s
+2026-06-02 10:47:36,179 INFO gateway.run: Shutdown phase: drain done at +0.01s (drain took 0.01s, timed_out=False, active_at_start=0, active_now=0)
+2026-06-02 10:47:36,200 INFO gateway.platforms.feishu: [Feishu] Disconnected
+2026-06-02 10:47:36,200 INFO gateway.run: ✓ feishu disconnected (0.02s)
+2026-06-02 10:47:36,200 INFO gateway.run: Shutdown phase: all adapters disconnected at +0.03s
+2026-06-02 10:47:36,220 INFO gateway.run: Shutdown (final-cleanup): killed 1 tool subprocess(es)
+2026-06-02 10:47:36,222 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +0.05s
+2026-06-02 10:47:36,225 INFO gateway.run: Shutdown phase: SessionDB close done at +0.05s
+2026-06-02 10:47:36,230 INFO gateway.run: Gateway stopped (total teardown 0.06s)
+2026-06-02 10:47:36,231 INFO gateway.run: Cron ticker stopped
+2026-06-02 10:47:36,231 INFO gateway.run: Exiting with code 1 (signal-initiated shutdown without restart request) so systemd Restart=on-failure can revive the gateway.
+2026-06-02 10:48:39,602 INFO gateway.memory_monitor: [MEMORY] baseline rss=120MB gc=(103, 6, 4) threads=1 uptime=0s
+2026-06-02 10:48:39,603 INFO gateway.memory_monitor: [MEMORY] Periodic memory monitoring started (interval: 300s)
+2026-06-02 10:48:40,982 INFO gateway.run: Starting Hermes Gateway...
+2026-06-02 10:48:40,982 INFO gateway.run: Session storage: /home/ubuntu/.hermes/sessions
+2026-06-02 10:48:40,992 INFO gateway.run: Agent budget: max_iterations=60 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-02 10:48:40,993 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-02 10:48:41,003 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-06-02 10:48:50,201 INFO gateway.run: Connecting to feishu...
+2026-06-02 10:48:50,847 INFO gateway.platforms.feishu: [Feishu] Connected in websocket mode (feishu)
+2026-06-02 10:48:50,852 INFO gateway.run: ✓ feishu connected
+2026-06-02 10:48:50,855 INFO gateway.run: Gateway running with 1 platform(s)
+2026-06-02 10:48:50,865 INFO gateway.run: Channel directory built: 7 target(s)
+2026-06-02 10:48:51,867 INFO gateway.run: Press Ctrl+C to stop
+2026-06-02 10:48:51,911 INFO gateway.run: Cron ticker started (interval=60s)
+2026-06-02 10:48:56,875 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-06-02 10:49:51,869 INFO gateway.run: Session expiry: 1 sessions to finalize (feishu:1)
+2026-06-02 10:49:51,877 INFO gateway.run: Session expiry done: 1 finalized
+2026-06-02 10:53:39,603 INFO gateway.memory_monitor: [MEMORY] rss=235MB gc=(34, 2, 5) threads=8 uptime=300s
+2026-06-02 10:58:39,603 INFO gateway.memory_monitor: [MEMORY] rss=235MB gc=(97, 2, 5) threads=8 uptime=600s
+2026-06-02 11:03:39,604 INFO gateway.memory_monitor: [MEMORY] rss=235MB gc=(76, 2, 5) threads=8 uptime=900s
+2026-06-02 11:08:39,604 INFO gateway.memory_monitor: [MEMORY] rss=236MB gc=(284, 2, 5) threads=9 uptime=1200s
+2026-06-02 11:13:39,605 INFO gateway.memory_monitor: [MEMORY] rss=236MB gc=(263, 2, 5) threads=9 uptime=1500s
+2026-06-02 11:15:35,436 INFO gateway.platforms.feishu: [Feishu] Received raw message type=text message_id=om_x100b6ed0e3ab98a4c4c464ad0e23e0b
+2026-06-02 11:15:36,221 INFO gateway.platforms.feishu: [Feishu] Inbound dm message received: id=om_x100b6ed0e3ab98a4c4c464ad0e23e0b type=text chat_id=oc_39c71fb71c2db9be002545966567498f sender=user:ou_d8fa42b66f19c9c4771ceff33c5716de text='再拉取并发布一次' media=0
+2026-06-02 11:15:38,264 INFO gateway.platforms.feishu: [Feishu] Flushing text batch agent:main:feishu:dm:oc_39c71fb71c2db9be002545966567498f:omt_19703695ee4f9be0 (8 chars)
+2026-06-02 11:15:38,923 INFO gateway.run: inbound message: platform=feishu user=ou_d8fa42b66f19c9c4771ceff33c5716de chat=oc_39c71fb71c2db9be002545966567498f msg='再拉取并发布一次'

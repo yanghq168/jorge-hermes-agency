@@ -1,0 +1,79 @@
+=== shutdown diagnostic @ SIGTERM ===
+--- date ---
+2026-05-26T14:12:20Z
+--- ps auxf (top 60 by cpu) ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           2  0.0  0.0      0     0 ?        S    22:03   0:00 [kthreadd]
+root          78  0.5  0.0      0     0 ?        I    22:03   0:02  \_ [kworker/0:2-cgwb_release]
+root           1  0.6  0.3  22608 13948 ?        Ss   22:03   0:03 /sbin/init showopts
+root        1557  0.2  0.3  46572 13772 ?        Sl   22:03   0:01 /usr/local/qcloud/tat_agent/tat_agent
+ubuntu      5421  0.0  0.1   8640  5604 pts/7    Ss+  22:09   0:00  \_ bash -l
+--- pstree of self ---
+python,3079,ubuntu -m hermes_cli.main gateway run --replace
+  |-timeout,6490 5 bash -c echo '=== shutdown diagnostic @ SIGTERM ==='; echo '--- date ---'; date -u +%Y-%m-%dT%H:%M:%SZ; echo '--- ps auxf (top 60 by cpu) ---'; ps auxf --sort=-pcpu 2>/dev/null | head -60; echo '--- pstree of self ---'; pstree -plau 3079 2>/dev/null | head -40 || true; echo '--- /proc/loadavg ---'; cat /proc/loadavg 2>/dev/null || true; echo '--- recent dmesg (oom/killed) ---'; dmesg -T 2>/dev/null | tail -20 || journalctl --user -n 20 --no-pager 2>/dev/null | tail -20 || true; echo '=== end ==='
+  |   `-bash,6491 -c echo '=== shutdown diagnostic @ SIGTERM ==='; echo '--- date ---'; date -u +%Y-%m-%dT%H:%M:%SZ; echo '--- ps auxf (top 60 by cpu) ---'; ps auxf --sort=-pcpu 2>/dev/null | head -60; echo '--- pstree of self ---'; pstree -plau 3079 2>/dev/null | head -40 || true; echo '--- /proc/loadavg ---'; cat /proc/loadavg 2>/dev/null || true; echo '--- recent dmesg (oom/killed) ---'; dmesg -T 2>/dev/null | tail -20 || journalctl --user -n 20 --no-pager 2>/dev/null | tail -20 || true; echo '=== end ==='
+  |       |-head,6496 -40
+  |       `-pstree,6495 -plau 3079
+  |-{python},3082
+  |-{python},3084
+  `-{python},3360
+--- /proc/loadavg ---
+0.06 0.22 0.17 2/200 6497
+--- recent dmesg (oom/killed) ---
+=== end ===
+=== shutdown diagnostic @ SIGTERM ===
+--- date ---
+2026-06-02T02:47:36Z
+--- ps auxf (top 60 by cpu) ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           2  0.0  0.0      0     0 ?        S    May26   0:00 [kthreadd]
+root     2348649  0.0  0.0      0     0 ?        I    09:00   0:01  \_ [kworker/0:2-events]
+root     2357894  0.0  0.0      0     0 ?        I    09:40   0:00  \_ [kworker/1:3-mm_percpu_wq]
+root          17  0.0  0.0      0     0 ?        I    May26   1:16  \_ [rcu_preempt]
+root           1  0.0  0.3  22668 13952 ?        Ss   May26   1:07 /sbin/init showopts
+man      2373900 14.7  0.1  10640  6400 ?        DNs  10:47   0:00 /usr/bin/mandb --quiet
+--- pstree of self ---
+python,6502,ubuntu -m hermes_cli.main gateway run --replace
+  |-bash,354014 -lic set +m; cd /tmp && python3 -m http.server 8899
+  |   `-python3,354023 -m http.server 8899
+  |-node,361978 /home/ubuntu/.hermes/lsp/bin/typescript-language-server --stdio
+  |   |-node,361990 /home/ubuntu/.hermes/lsp/node_modules/typescript/lib/tsserver.js --serverMode partialSemantic --useInferredProjectPerProjectRoot --disableAutomaticTypingAcquisition --cancellationPipeName /tmp/4da9c08af2030e12323dc5c8b496a2c4/tscancellation* --locale en --validateDefaultNpmLocation --useNodeIpc
+  |   |   |-{node},361992
+  |   |   |-{node},361993
+  |   |   |-{node},361994
+  |   |   |-{node},361995
+  |   |   |-{node},361996
+  |   |   `-{node},362002
+  |   |-node,361991 /home/ubuntu/.hermes/lsp/node_modules/typescript/lib/tsserver.js --useInferredProjectPerProjectRoot --cancellationPipeName /tmp/81d745d7e3051587c058a623289e5d81/tscancellation* --locale en --validateDefaultNpmLocation --useNodeIpc
+  |   |   |-node,362011 /home/ubuntu/.hermes/lsp/node_modules/typescript/lib/typingsInstaller.js --globalTypingsCacheLocation /home/ubuntu/.cache/typescript/6.0 --typesMapLocation /home/ubuntu/.hermes/lsp/node_modules/typescript/lib/typesMap.json --validateDefaultNpmLocation
+  |   |   |   |-{node},362012
+  |   |   |   |-{node},362013
+  |   |   |   |-{node},362014
+  |   |   |   |-{node},362015
+  |   |   |   |-{node},362016
+  |   |   |   `-{node},362017
+  |   |   |-{node},361997
+  |   |   |-{node},361998
+  |   |   |-{node},361999
+  |   |   |-{node},362000
+  |   |   |-{node},362001
+  |   |   |-{node},362003
+  |   |   |-{node},362025
+  |   |   |-{node},362026
+  |   |   |-{node},362027
+  |   |   `-{node},362028
+  |   |-{node},361980
+  |   |-{node},361981
+  |   |-{node},361982
+  |   |-{node},361983
+  |   |-{node},361984
+  |   |-{node},361985
+  |   |-{node},361986
+  |   |-{node},361987
+  |   |-{node},361988
+  |   `-{node},361989
+  |-timeout,2373992 5 bash -c echo '=== shutdown diagnostic @ SIGTERM ==='; echo '--- date ---'; date -u +%Y-%m-%dT%H:%M:%SZ; echo '--- ps auxf (top 60 by cpu) ---'; ps auxf --sort=-pcpu 2>/dev/null | head -60; echo '--- pstree of self ---'; pstree -plau 6502 2>/dev/null | head -40 || true; echo '--- /proc/loadavg ---'; cat /proc/loadavg 2>/dev/null || true; echo '--- recent dmesg (oom/killed) ---'; dmesg -T 2>/dev/null | tail -20 || journalctl --user -n 20 --no-pager 2>/dev/null | tail -20 || true; echo '=== end ==='
+--- /proc/loadavg ---
+0.10 0.03 0.01 2/267 2373999
+--- recent dmesg (oom/killed) ---
+=== end ===
