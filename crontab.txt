@@ -40,3 +40,4 @@
 
 # */4 hour - 性能采集
 0 */4 * * * python3 /home/ubuntu/.hermes/cron/scripts/collect_metrics.py >> /home/ubuntu/.hermes/cron/logs/metrics.log 2>&1
+30 20 * * * python3 /home/ubuntu/.hermes/cron/scripts/toutiao-article-daily.py >> /home/ubuntu/.hermes/cron/logs/toutiao-article-daily.log 2>&1
