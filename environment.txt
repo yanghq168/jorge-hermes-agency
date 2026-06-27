@@ -1,4 +1,4 @@
-# 备份时间: 2026-06-27T03:30:01.199372
+# 备份时间: 2026-06-28T03:30:01.221721
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 HOME=/home/ubuntu
 USER=
